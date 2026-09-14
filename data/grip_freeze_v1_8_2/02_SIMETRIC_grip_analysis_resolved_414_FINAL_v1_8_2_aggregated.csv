@@ -1,0 +1,5 @@
+variable,category,n
+verified_training_role,(missing),387
+verified_training_role,PRIMARY_GOPRO_TRAINING,25
+verified_training_role,SECONDARY_CAE_VALIDATION_PENDING_VIDEO_RESOLUTION,1
+verified_training_role,SECONDARY_CAE_VALIDATION,1
