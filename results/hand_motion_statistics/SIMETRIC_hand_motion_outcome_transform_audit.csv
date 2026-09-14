@@ -1,0 +1,12 @@
+outcome,outcome_tier,outcome_family,transform,primary_transformed_mean,primary_transformed_sd,primary_nonmissing,augmented_nonmissing,augmented_scaled_using_primary_reference
+path_length_norm,MAIN,path_length,log1p,2.241705400568118,0.6372496172842641,251,256,True
+path_efficiency,MAIN,path_efficiency,logit,-3.89337509323041,1.1895349949292593,251,254,True
+mean_speed_norm_s,MAIN,mean_speed,log1p,0.0750821514657033,0.0364966923914302,251,256,True
+log_dimensionless_jerk,MAIN,jerk_smoothness,identity,-27.017810251823494,2.7055858645573267,251,256,True
+stillness_fraction_observed_tracking,MAIN,stillness_fraction,logit,-0.0682952255346942,1.5664011413293102,251,256,True
+displacement_norm,SECONDARY,displacement,log1p,0.2143683758347392,0.1491175002342693,251,256,True
+peak_speed_norm_s,SECONDARY,peak_speed,log1p,1.3960306755892706,0.4723763279110905,251,256,True
+velocity_peak_count,SECONDARY,velocity_peak_count,log1p,6.081304656946131,0.6213440610426719,251,256,True
+sparc,SECONDARY,sparc_smoothness,identity,-37.29229393746765,25.84958699386635,251,256,True
+stillness_episode_count,SECONDARY,stillness_episode_count,log1p,3.1136531513820374,0.6799948220948282,251,256,True
+longest_stillness_sec,SECONDARY,longest_stillness,log1p,2.4280628345623887,0.7875016792532394,251,256,True

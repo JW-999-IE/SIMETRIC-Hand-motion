@@ -1,0 +1,30 @@
+{
+  "status": "PASS_INTEGRATED_MANUSCRIPT_PACKAGE_CREATED_PENDING_VISUAL_QC",
+  "root208_manifest_sha256": "566778487938512d354b9722ca0d6fe24682ae4f814364f4d8674cdf52ae7d3f",
+  "root218_manifest_sha256": "c5cc8da8b7603b516e50e884963532963ac9ac9b6859cbbe6b05e6b9bce04e61",
+  "main_scalar": {
+    "GoPro": 251,
+    "CAE": 5,
+    "total": 256
+  },
+  "main_trajectory": {
+    "GoPro": 244,
+    "CAE": 5,
+    "total": 249
+  },
+  "source_restricted_sensitivity": {
+    "scalar_GoPro_only": 251,
+    "trajectory_GoPro_only": 244
+  },
+  "main_device_omnibus_significant": 4,
+  "main_pairwise_FDR_significant": 7,
+  "headline_source_FDR_threshold_crossings": 0,
+  "ATG_vs_CON_main_FDR_significant": 0,
+  "models_refit_in_root219": false,
+  "metrics_recomputed": false,
+  "trajectory_tracking_recomputed": false,
+  "pointwise_trajectory_hypothesis_tests": false,
+  "grip_included": false,
+  "branch_lock": false,
+  "branch_lock_reason": "Final visual QC of the four integrated root219 figures remains."
+}

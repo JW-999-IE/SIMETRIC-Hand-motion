@@ -1,0 +1,100 @@
+{
+  "input_master": "[REDACTED]",
+  "input_model_spec": "[REDACTED]",
+  "frozen_model_specification": {
+    "freeze_status": "FROZEN_BEFORE_DEVICE_EFFECT_MODELLING",
+    "analysis_population": {
+      "main": "analysis_main == True (GoPro >=60% tracking and observed-span coverage)",
+      "high_qc_sensitivity": "analysis_highqc_sensitivity == True (GoPro >=80%)",
+      "recovery_sensitivity": "analysis_recovery_sensitivity == True (all sources >=60%); include motion_source as an additional covariate"
+    },
+    "stratification": "Fit left and right hands separately.",
+    "cluster": "participant",
+    "working_correlation": "exchangeable",
+    "base_covariates": [
+      "C(device, Treatment(reference='CON'))",
+      "C(experience_stratum, Treatment(reference='None'))",
+      "device_repetition_c",
+      "chronological_attempt_sequence_c"
+    ],
+    "temporal_rule": "Use device_repetition_c and chronological_attempt_sequence_c. Do not also include round because round and device repetition are 99.8% concordant and P26_T13 is the documented exception (round 3 vs device repetition 4).",
+    "outcomes": {
+      "mean_accel_norm_s2": {
+        "family": "Gaussian GEE",
+        "transform": "log",
+        "effect_scale": "ratio of geometric means",
+        "raw_scale_sensitivity": true
+      },
+      "rms_accel_norm_s2": {
+        "family": "Gaussian GEE",
+        "transform": "log",
+        "effect_scale": "ratio of geometric means",
+        "raw_scale_sensitivity": true
+      },
+      "peak_accel_norm_s2": {
+        "family": "Gaussian GEE",
+        "transform": "log",
+        "effect_scale": "ratio of geometric means",
+        "raw_scale_sensitivity": true
+      },
+      "sparc": {
+        "family": "Gaussian GEE",
+        "transform": "none",
+        "effect_scale": "mean difference"
+      },
+      "log_dimensionless_jerk": {
+        "family": "Gaussian GEE",
+        "transform": "none",
+        "effect_scale": "mean difference"
+      },
+      "velocity_peak_count": {
+        "family": "Negative-binomial GEE",
+        "transform": "none",
+        "offset": "log(observed_continuous_tracking_sec)",
+        "effect_scale": "rate ratio",
+        "poisson_sensitivity": true
+      },
+      "path_length_norm": {
+        "family": "Gaussian GEE",
+        "transform": "log",
+        "effect_scale": "ratio of geometric means",
+        "raw_scale_sensitivity": true
+      },
+      "path_efficiency": {
+        "family": "Gaussian GEE with robust SE",
+        "transform": "none",
+        "effect_scale": "mean difference",
+        "note": "Only nonmissing values are analysed; by construction these are restricted to the stricter path-efficiency QC subset.",
+        "logit_sensitivity": true
+      },
+      "stillness_fraction": {
+        "family": "Gaussian GEE with robust SE",
+        "transform": "none",
+        "effect_scale": "mean difference",
+        "logit_nonboundary_sensitivity": true
+      },
+      "first_sustained_hand_movement_delay_sec": {
+        "family": "Gaussian GEE",
+        "transform": "log1p",
+        "effect_scale": "ratio-like effect on 1+delay",
+        "raw_scale_sensitivity": true,
+        "interpretation": "not insertion-specific"
+      }
+    },
+    "device_testing": {
+      "omnibus": "For each outcome\u00d7hand model, test the 2-df joint device effect (MST and ATG coefficients relative to CON).",
+      "global_multiplicity": "Apply Benjamini-Hochberg FDR across all outcome\u00d7hand omnibus device tests.",
+      "pairwise": "Report MST vs CON, ATG vs CON, and MST vs ATG with 95% CI. Apply Holm adjustment to the three pairwise device contrasts within each outcome\u00d7hand.",
+      "interpretation_rule": "Emphasize effect estimates and 95% CIs; treat pairwise findings as confirmatory only when the outcome\u00d7hand omnibus device test survives the pre-specified FDR control."
+    },
+    "grip": "Exclude from inference pending manual validation.",
+    "tremor": "Exploratory only; no confirmatory device-effect inference.",
+    "trajectory": "Separate longitudinal/functional analysis; not part of these scalar GEE models."
+  },
+  "covariance": "bias_reduced GEE covariance attempted first because hand-specific models contain roughly 15-22 participant clusters; robust covariance used only as fallback if bias-reduced fitting fails",
+  "negative_binomial_working_alpha": 1.0,
+  "main_multiplicity": "Benjamini-Hochberg FDR across all main outcome x hand 2-df omnibus device tests",
+  "pairwise_multiplicity": "Holm adjustment across MST-vs-CON, ATG-vs-CON, MST-vs-ATG within each analysis-set x outcome x hand model",
+  "interpretation_gate": "Main pairwise contrasts are confirmatory only when the corresponding main outcome x hand omnibus device test survives BH FDR <=0.05.",
+  "sensitivity_rule": "High-QC and recovery analyses assess robustness and do not rescue a non-confirmatory main result."
+}

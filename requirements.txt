@@ -1,0 +1,8 @@
+numpy
+pandas
+scipy
+statsmodels
+mediapipe==0.10.14
+opencv-python
+matplotlib
+seaborn

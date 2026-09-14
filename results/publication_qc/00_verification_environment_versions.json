@@ -1,0 +1,11 @@
+{
+  "verification_script_version": "v1.2 / root213 version-forward",
+  "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "python_executable": "[REDACTED]",
+  "numpy_version": "1.26.4",
+  "pandas_version": "2.3.3",
+  "scipy_version": "1.17.1",
+  "matplotlib_version": "3.11.1",
+  "statsmodels_version": "0.14.6",
+  "environment_policy": "Separate verification environment; frozen CAE recovery environment was not modified."
+}

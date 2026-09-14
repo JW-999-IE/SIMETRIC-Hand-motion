@@ -1,0 +1,93 @@
+{
+  "status": "STOP_INVESTIGATE",
+  "partial_root212_preserved": true,
+  "partial_root212_path": "[REDACTED]",
+  "root207_manifest_sha256": "e405328528f17cf2e57efe5ee8a670da28df402c6738fffa08d21cba4743a493",
+  "root208_manifest_sha256": "566778487938512d354b9722ca0d6fe24682ae4f814364f4d8674cdf52ae7d3f",
+  "root210_manifest_sha256": "4a7380977bde3e332aa723c7cb8d4cf6f21c5222ae09af5090ae722fae6de867",
+  "root211_manifest_sha256": "cf6b8d4ea8b3473d3c3f4fbfd13a2a48e1bf79b5aa28dfec360e1dbdedde1c00",
+  "statsmodels_version": "0.14.6",
+  "standard_package_reproduction": {
+    "models_expected": 5,
+    "models_successful": 5,
+    "coefficient_comparisons": 35,
+    "material_discrepancies": 0,
+    "raw_significance_conclusion_mismatches": 0,
+    "likelihood_mismatch_models": 0
+  },
+  "stillness_boundary_diagnostics": {
+    "boundary_summary": {
+      "n": 251,
+      "exact_zero_count": 0,
+      "exact_one_count": 2,
+      "lt_0_001_count": 0,
+      "gt_0_999_count": 2,
+      "min": 0.0333012547298267,
+      "q01": 0.1032530922007596,
+      "q05": 0.1517623246071922,
+      "median": 0.4871983584221734,
+      "q95": 0.8045251492448815,
+      "q99": 0.9552600531596191,
+      "max": 1.0
+    },
+    "transform_direction_reversal": false
+  },
+  "headline_device_contrasts": {
+    "expected": 7,
+    "direction_mismatches": 0,
+    "FDR_conclusion_mismatches": 0,
+    "material_estimate_SE_discrepancies": 0
+  },
+  "nested_attempt_sensitivity": {
+    "model_failures": 0,
+    "headline_direction_reversals": 0,
+    "large_effect_change_warnings": 0
+  },
+  "diagnostics": {
+    "material_concern_models": 1,
+    "moderate_concern_models": 0
+  },
+  "LOPO": {
+    "fit_failure_rows": 0,
+    "headline_material_influence_flags": 0,
+    "headline_FDR_threshold_crossings_any": 2
+  },
+  "population": {
+    "included_participants": 27,
+    "included_attempts": 414,
+    "canonical_attempt_hands": 828,
+    "GoPro_primary_scalar": 251,
+    "GoPro_primary_participants": 20,
+    "participants_absent_from_GoPro_primary": [
+      "P1",
+      "P2",
+      "P3",
+      "P5",
+      "P13",
+      "P23",
+      "P24"
+    ],
+    "CAE_total_addition_union_keys": 9,
+    "CAE_scalar_eligible": 5,
+    "CAE_trajectory_eligible": 5,
+    "sensitivity_scalar": 256,
+    "primary_trajectory": 244,
+    "sensitivity_trajectory": 249
+  },
+  "figure_QC": {
+    "automated_failures": 0,
+    "manual_checks_pending": 48,
+    "final_visual_QC_complete": false
+  },
+  "hard_issues": [
+    "1 primary models have MATERIAL residual/heteroscedasticity/extreme-residual concern."
+  ],
+  "warnings": [
+    "2 headline contrasts cross the FDR threshold in at least one LOPO refit; interpret alongside direction and effect-size stability."
+  ],
+  "branch_lock": false,
+  "branch_lock_reason": "Manual visual inspection of all four root211 figures is still required even if statistical verification passes.",
+  "grip_analysis_included": false,
+  "reviewer2_grip_reliability_run": false,
+  "next_stage": "Review root213 console/results. If statistical verification passes, upload the four root211 PNG figures for manual visual QC. After visual QC passes, create a separate immutable final-lock root and mark the non-grip hand-motion branch FINAL/VERIFIED/LOCKED."
+}

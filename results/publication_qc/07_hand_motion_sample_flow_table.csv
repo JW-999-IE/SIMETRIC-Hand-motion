@@ -1,0 +1,10 @@
+branch,stage,attempt_hands_or_attempts,unit,source
+Study,Included actual attempts,414,attempts,study cohort
+Study,Canonical attempt-hand universe,828,attempt-hands,414 x 2 hands
+Scalar,GoPro-primary scalar,251,attempt-hands,GoPro primary
+Scalar,CAE scalar sensitivity additions,5,attempt-hands,CAE sensitivity only
+Scalar,Sensitivity-augmented scalar,256,attempt-hands,251 GoPro + 5 CAE
+Trajectory,GoPro-primary trajectory,244,attempt-hands,GoPro primary
+Trajectory,CAE trajectory sensitivity additions,5,attempt-hands,CAE sensitivity only
+Trajectory,Sensitivity-augmented trajectory,249,attempt-hands,244 GoPro + 5 CAE
+Recovery union,Total non-overlapping CAE recovery addition keys,9,attempt-hands,root207 union

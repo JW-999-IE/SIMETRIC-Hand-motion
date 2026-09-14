@@ -1,0 +1,37 @@
+{
+  "status": "NON_GRIP_HAND_MOTION_ANALYSIS_MANUSCRIPT_PACKAGE_COMPLETE",
+  "root210_manifest_sha256": "4a7380977bde3e332aa723c7cb8d4cf6f21c5222ae09af5090ae722fae6de867",
+  "main_device_omnibus_significant_outcomes": 4,
+  "main_pairwise_device_FDR_significant": 7,
+  "main_pairwise_robust_primary_and_CAE_sensitivity": 7,
+  "main_pairwise_direction_changes_after_CAE": 0,
+  "main_hand_stratified_direction_concordance": {
+    "concordant": 9,
+    "total": 15
+  },
+  "expertise": {
+    "main_pairwise_FDR_significant": 0,
+    "interpretation": "secondary_exploratory_only_3_expert_participants"
+  },
+  "hand_round_order": {
+    "main_FDR_significant_rows": 7
+  },
+  "model_qc": {
+    "overall_model_rows": 22,
+    "failed": 0,
+    "optimizer_failures": 0,
+    "invalid_icc": 0,
+    "near_boundary": 0
+  },
+  "trajectory": {
+    "pointwise_hypothesis_tests": false,
+    "figures": [
+      "[REDACTED]",
+      "[REDACTED]"
+    ]
+  },
+  "grip_analysis_included": false,
+  "tremor_interpreted_as_physiological": false,
+  "analysis_ready_for_manuscript_integration": true,
+  "next_stage": "integrate root211 non-grip hand-motion Methods/Results/tables/figures into the manuscript; keep grip results separate until the grip branch freezes"
+}

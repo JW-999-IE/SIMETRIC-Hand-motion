@@ -1,0 +1,14 @@
+metric,value,details
+included_study_participants,27,"{""Expert"": 5, ""Intermediate"": 9, ""Novice"": 13}"
+included_study_attempts,414,actual included non-abort attempts
+canonical_attempt_hands,828,414 attempts x 2 hands
+GoPro_primary_scalar_attempt_hands,251,"participants=20; expertise={""Expert"": 3, ""Intermediate"": 6, ""Novice"": 11}"
+GoPro_primary_left,92,
+GoPro_primary_right,159,
+participants_not_in_GoPro_primary,7,P1 || P2 || P3 || P5 || P13 || P23 || P24
+CAE_total_nonoverlapping_recovery_addition_keys,9,not all are scalar-eligible or trajectory-eligible
+CAE_scalar_eligible_additions,5,
+CAE_trajectory_eligible_additions,5,
+sensitivity_scalar_attempt_hands,256,251 GoPro + 5 eligible CAE
+primary_trajectory_attempt_hands,244,
+sensitivity_trajectory_attempt_hands,249,244 GoPro + 5 eligible CAE

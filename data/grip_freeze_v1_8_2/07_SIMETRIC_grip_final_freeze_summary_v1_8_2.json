@@ -1,0 +1,49 @@
+{
+  "version": "1.8.2",
+  "freeze_status": "PASS",
+  "total_attempts": 414,
+  "resolved_n": 414,
+  "resolved_pct": 100.0,
+  "unresolved_n": 0,
+  "unresolved_pct": 0.0,
+  "grip_counts": {
+    "EPG": 103,
+    "IPG": 191,
+    "TC": 90,
+    "OTHER": 30
+  },
+  "structural_base": "[REDACTED]",
+  "structural_base_sha256": "fc1b3ff43ab19eb69a486bed04b8cc5fbd2510d8e4713fa8481f2a246ca21f4e",
+  "structural_base_role": "414-row structural scaffold only; exact attempt-ID set validated directly against insertion.xlsx.",
+  "insertion_workbook": "[REDACTED]",
+  "insertion_workbook_sha256": "c48c711c218e53ec989ab0be08fe01cf2663c7329724dbd85db71faec0809200",
+  "workbook_sheet": "insertion",
+  "workbook_participant_column": "Id",
+  "raw_workbook_rows": 438,
+  "excluded_participants": [
+    "P14",
+    "P7",
+    "P8"
+  ],
+  "excluded_rows": 24,
+  "included_rows": 414,
+  "included_participants": 27,
+  "attempt_sequence_method": "Original workbook row order within participant; cumcount + 1.",
+  "historical_v1_6_master_sha256": "f05bc9cd31fcafe6ff45effd649fc4c61a6c7227eb52d52194fa42b5583356b5",
+  "historical_v1_6_byte_artifact_status": "NOT_LOCATED_UNDER_ANALYSIS_TREE_AT_FINAL_FREEZE",
+  "historical_included_universe_csv_status": "NOT_LOCATED; RECONSTRUCTED DIRECTLY FROM AUTHORITATIVE insertion.xlsx",
+  "P3_T03_final": {
+    "status": "LOCATED",
+    "grip": "IPG",
+    "needle_sec": 644.134
+  },
+  "P23_T11_final": {
+    "status": "LOCATED",
+    "source": "CAE_HAND",
+    "grip": "EPG",
+    "attempt_start_sec": 2043.0,
+    "needle_sec": 2074.0
+  },
+  "device_identity_note": "Existing workbook/device columns remain provenance only. The provisional DEVICE1/DEVICE2/DEVICE3 crosswalk is not authoritative per-attempt technique.",
+  "grip_analysis_note": "All final grip labels are manual exact-Needle-In labels. Automated grip candidates/classifier outputs remain exploratory."
+}

@@ -1,0 +1,441 @@
+analysis_set,hand,outcome,term,coefficient,se,z,p
+main_gopro_ge60,left,mean_accel_norm_s2,Intercept,-0.7220740111890951,0.0890693997928191,-8.106869619293303,5.194054322331982e-16
+main_gopro_ge60,left,mean_accel_norm_s2,"C(device, Treatment(reference=""CON""))[T.ATG]",0.0014059850127978,0.0691800423700106,0.0203235639157014,0.9837852583812616
+main_gopro_ge60,left,mean_accel_norm_s2,"C(device, Treatment(reference=""CON""))[T.MST]",0.0884673862111347,0.0780165268044405,1.1339569939186187,0.2568125880987251
+main_gopro_ge60,left,mean_accel_norm_s2,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",0.4092578482419008,0.1820365351263698,2.248218183002625,0.0245622807866035
+main_gopro_ge60,left,mean_accel_norm_s2,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.1365913517020805,0.1209521582537394,1.1293006563432495,0.2587710241329604
+main_gopro_ge60,left,mean_accel_norm_s2,device_repetition_c,-0.0229813462597584,0.0869126959368404,-0.2644187481706821,0.79145726652033
+main_gopro_ge60,left,mean_accel_norm_s2,chronological_attempt_sequence_c,0.0131285556953762,0.0280581414847816,0.4679053921834766,0.6398522472522109
+main_gopro_ge60,left,rms_accel_norm_s2,Intercept,0.2678548420788886,0.1328795217058987,2.015772171965893,0.0438238047444346
+main_gopro_ge60,left,rms_accel_norm_s2,"C(device, Treatment(reference=""CON""))[T.ATG]",0.0099944287625985,0.0950340513346583,0.105166817811477,0.9162434402268564
+main_gopro_ge60,left,rms_accel_norm_s2,"C(device, Treatment(reference=""CON""))[T.MST]",0.0743518024879386,0.1576622720761498,0.4715890587446768,0.637220137838609
+main_gopro_ge60,left,rms_accel_norm_s2,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",0.5192734936914531,0.2747861740744179,1.8897366122606405,0.0587931949004642
+main_gopro_ge60,left,rms_accel_norm_s2,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.2846461651478466,0.2423519305188538,1.1745157735630354,0.2401884976877987
+main_gopro_ge60,left,rms_accel_norm_s2,device_repetition_c,-0.0407238041693731,0.1756149718703488,-0.2318925529848233,0.8166214687509371
+main_gopro_ge60,left,rms_accel_norm_s2,chronological_attempt_sequence_c,0.005521704046898,0.0570697269441511,0.0967536440519798,0.9229220378317572
+main_gopro_ge60,left,peak_accel_norm_s2,Intercept,2.841961050422318,0.2430042716664209,11.695107377880012,1.3501631835225935e-31
+main_gopro_ge60,left,peak_accel_norm_s2,"C(device, Treatment(reference=""CON""))[T.ATG]",0.0798914524470867,0.1651423279572045,0.4837733210821034,0.6285467509404982
+main_gopro_ge60,left,peak_accel_norm_s2,"C(device, Treatment(reference=""CON""))[T.MST]",0.2727851285394966,0.2518626213244574,1.0830711087854763,0.278776861587572
+main_gopro_ge60,left,peak_accel_norm_s2,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",0.6110259884306429,0.2565523005140677,2.38168196974378,0.0172337737906085
+main_gopro_ge60,left,peak_accel_norm_s2,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.3928547972672409,0.3636389813653555,1.080342915361243,0.2799895058437248
+main_gopro_ge60,left,peak_accel_norm_s2,device_repetition_c,-0.0735834185545988,0.2959833667308516,-0.2486066003212635,0.8036651024517192
+main_gopro_ge60,left,peak_accel_norm_s2,chronological_attempt_sequence_c,-0.0094140098161498,0.0977040705165287,-0.0963522785323184,0.9232407919243876
+main_gopro_ge60,left,sparc,Intercept,-40.76451765772297,5.892183074321629,-6.9184064961213405,4.56752106176118e-12
+main_gopro_ge60,left,sparc,"C(device, Treatment(reference=""CON""))[T.ATG]",-1.1313452716349104,4.252848507057519,-0.2660205906129657,0.7902233511955674
+main_gopro_ge60,left,sparc,"C(device, Treatment(reference=""CON""))[T.MST]",-8.20219870584912,6.440806031090836,-1.273473951281214,0.2028499102603586
+main_gopro_ge60,left,sparc,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",18.69355870515849,13.131037264000984,1.423616301539809,0.1545575743041289
+main_gopro_ge60,left,sparc,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",9.076486642215752,6.516014567091003,1.3929506370437477,0.1636347183845855
+main_gopro_ge60,left,sparc,device_repetition_c,7.685403194700528,6.718768479737599,1.1438708176770933,0.2526772150402531
+main_gopro_ge60,left,sparc,chronological_attempt_sequence_c,-1.199409392948428,2.2514753190815537,-0.5327215371997522,0.5942263551370799
+main_gopro_ge60,left,log_dimensionless_jerk,Intercept,-26.753838061716674,0.4076675810887,-65.62660192470786,0.0
+main_gopro_ge60,left,log_dimensionless_jerk,"C(device, Treatment(reference=""CON""))[T.ATG]",-0.9234846017607944,0.5099222179150003,-1.811030328383792,0.0701361571073254
+main_gopro_ge60,left,log_dimensionless_jerk,"C(device, Treatment(reference=""CON""))[T.MST]",-1.524159270619889,0.7098933458238467,-2.147025718139489,0.0317912342104629
+main_gopro_ge60,left,log_dimensionless_jerk,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",1.628117413744091,1.0723821037357326,1.5182250879349888,0.1289576650466839
+main_gopro_ge60,left,log_dimensionless_jerk,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",-0.4031297437276909,0.9895928318295072,-0.4073693045880353,0.6837367680812843
+main_gopro_ge60,left,log_dimensionless_jerk,device_repetition_c,0.8460986000312156,0.9258199579697522,0.9138910786570652,0.36077408189215
+main_gopro_ge60,left,log_dimensionless_jerk,chronological_attempt_sequence_c,-0.1259060694217717,0.2916449091245799,-0.4317101567097449,0.6659520845805018
+main_gopro_ge60,left,velocity_peak_count,Intercept,1.422050629859204,0.0300421227013759,47.33522474409157,0.0
+main_gopro_ge60,left,velocity_peak_count,"C(device, Treatment(reference=""CON""))[T.ATG]",-0.0065553782803265,0.0226581851315076,-0.2893161231704681,0.7723394751487714
+main_gopro_ge60,left,velocity_peak_count,"C(device, Treatment(reference=""CON""))[T.MST]",-0.0446135520443007,0.0223964008273986,-1.991996499264411,0.0463714419865157
+main_gopro_ge60,left,velocity_peak_count,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",-0.0689607241993828,0.0291769103402395,-2.363537584864672,0.0181013904568376
+main_gopro_ge60,left,velocity_peak_count,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",-0.0266095657090104,0.029671854740493,-0.8967948226268603,0.3698284111618036
+main_gopro_ge60,left,velocity_peak_count,device_repetition_c,-0.0231206161986313,0.0334600678876493,-0.6909913116812738,0.4895710010571418
+main_gopro_ge60,left,velocity_peak_count,chronological_attempt_sequence_c,0.0024772185332915,0.0111957816763555,0.221263562018467,0.8248872201315858
+main_gopro_ge60,left,path_length_norm,Intercept,1.3135307330656163,0.1247478466354306,10.52948622756066,6.317835901280837e-26
+main_gopro_ge60,left,path_length_norm,"C(device, Treatment(reference=""CON""))[T.ATG]",0.0891882689848273,0.0874216334874616,1.0202082187999737,0.3076297205709607
+main_gopro_ge60,left,path_length_norm,"C(device, Treatment(reference=""CON""))[T.MST]",0.5716584185890914,0.07212829386914,7.925577993377085,2.2708756526568255e-15
+main_gopro_ge60,left,path_length_norm,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",0.2226034976744386,0.2561528579442245,0.8690260161879942,0.3848329010059554
+main_gopro_ge60,left,path_length_norm,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.3018692005079014,0.1823233971639336,1.6556799906293973,0.0977866415236094
+main_gopro_ge60,left,path_length_norm,device_repetition_c,0.0019691910031752,0.1087035339972611,0.0181152436426297,0.9855469172789012
+main_gopro_ge60,left,path_length_norm,chronological_attempt_sequence_c,-0.0398157833391432,0.0343519793997419,-1.1590535402871822,0.2464343618913632
+main_gopro_ge60,left,path_efficiency,Intercept,0.0571122273691028,0.0186936658304673,3.055164668452563,0.0022493698411907
+main_gopro_ge60,left,path_efficiency,"C(device, Treatment(reference=""CON""))[T.ATG]",-0.0246224768292846,0.0228698669768564,-1.07663402039906,0.2816437993472125
+main_gopro_ge60,left,path_efficiency,"C(device, Treatment(reference=""CON""))[T.MST]",-0.0301006188854328,0.0144501076786417,-2.08307228948361,0.0372446347839667
+main_gopro_ge60,left,path_efficiency,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",0.0566077035961797,0.0937980954768183,0.603505895385371,0.5461721948203075
+main_gopro_ge60,left,path_efficiency,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.0017034839161534,0.0122195548180526,0.139406381125832,0.8891290301897969
+main_gopro_ge60,left,path_efficiency,device_repetition_c,0.0006814539984374,0.0197725342125777,0.034464676662639,0.972506609544264
+main_gopro_ge60,left,path_efficiency,chronological_attempt_sequence_c,0.0004461910244635,0.0061674258215209,0.0723463949751204,0.9423262435508972
+main_gopro_ge60,left,stillness_fraction,Intercept,0.6394845533951401,0.0489939725314119,13.052310730368765,6.164877734489738e-39
+main_gopro_ge60,left,stillness_fraction,"C(device, Treatment(reference=""CON""))[T.ATG]",0.0103897636884581,0.0296184716139337,0.3507866247754115,0.7257484322616718
+main_gopro_ge60,left,stillness_fraction,"C(device, Treatment(reference=""CON""))[T.MST]",-0.0817792664376255,0.0305573237763394,-2.676257483678828,0.0074449424324741
+main_gopro_ge60,left,stillness_fraction,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",-0.1983016414972051,0.1398940272675342,-1.4175132803773804,0.1563329143606044
+main_gopro_ge60,left,stillness_fraction,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",-0.0151392417620289,0.0550475924854306,-0.2750209605630951,0.78330013481768
+main_gopro_ge60,left,stillness_fraction,device_repetition_c,0.0132586933413699,0.0434267007166002,0.3053120113336551,0.7601285286831729
+main_gopro_ge60,left,stillness_fraction,chronological_attempt_sequence_c,-0.0112596462659585,0.0141600304546566,-0.7951710486791874,0.4265140102409333
+main_gopro_ge60,left,first_sustained_hand_movement_delay_sec,Intercept,2.621648808938255,0.2771266998547656,9.460109077588656,3.0762213766905827e-21
+main_gopro_ge60,left,first_sustained_hand_movement_delay_sec,"C(device, Treatment(reference=""CON""))[T.ATG]",0.2436156972624046,0.3788207031541965,0.6430897129802391,0.5201658890913463
+main_gopro_ge60,left,first_sustained_hand_movement_delay_sec,"C(device, Treatment(reference=""CON""))[T.MST]",-0.3046613478533826,0.2568862998987787,-1.185977407021818,0.2356312219082181
+main_gopro_ge60,left,first_sustained_hand_movement_delay_sec,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",-0.4135252237097523,0.6109906510088218,-0.6768110494439982,0.4985258466226837
+main_gopro_ge60,left,first_sustained_hand_movement_delay_sec,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.0263818027755572,0.4103962143457172,0.0642837381373435,0.9487443017574848
+main_gopro_ge60,left,first_sustained_hand_movement_delay_sec,device_repetition_c,-0.4430806139486325,0.392413753045685,-1.1291159153054682,0.2588489383172829
+main_gopro_ge60,left,first_sustained_hand_movement_delay_sec,chronological_attempt_sequence_c,0.076983290621966,0.1133759709157744,0.6790088763972391,0.4971322377367205
+main_gopro_ge60,right,mean_accel_norm_s2,Intercept,-0.228174138744114,0.1151265353348945,-1.9819422002092948,0.0474857100854431
+main_gopro_ge60,right,mean_accel_norm_s2,"C(device, Treatment(reference=""CON""))[T.ATG]",0.0245411612219517,0.0583999557792262,0.4202256815865854,0.6743205953922178
+main_gopro_ge60,right,mean_accel_norm_s2,"C(device, Treatment(reference=""CON""))[T.MST]",0.2436593181422145,0.068462680677388,3.559009313269421,0.0003722563326922
+main_gopro_ge60,right,mean_accel_norm_s2,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",-0.0668673618053141,0.225481732721211,-0.2965533438045287,0.7668075354374799
+main_gopro_ge60,right,mean_accel_norm_s2,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.0845031532575103,0.1537707708127481,0.5495397650078289,0.5826350830463722
+main_gopro_ge60,right,mean_accel_norm_s2,device_repetition_c,0.0551115091963348,0.0754972320261758,0.729980526666553,0.4654020878553315
+main_gopro_ge60,right,mean_accel_norm_s2,chronological_attempt_sequence_c,-0.0056905138625617,0.0253389883225145,-0.2245754167503798,0.8223095909925312
+main_gopro_ge60,right,rms_accel_norm_s2,Intercept,0.7538494222791501,0.1304796289738368,5.77752579623221,7.580710216709371e-09
+main_gopro_ge60,right,rms_accel_norm_s2,"C(device, Treatment(reference=""CON""))[T.ATG]",-0.092274725236199,0.0639551480237414,-1.44280371615972,0.1490757720394345
+main_gopro_ge60,right,rms_accel_norm_s2,"C(device, Treatment(reference=""CON""))[T.MST]",0.1769942722157119,0.0712667455756291,2.483546439312055,0.0130081372072554
+main_gopro_ge60,right,rms_accel_norm_s2,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",-0.1135067643169642,0.2487635705942782,-0.4562837076417769,0.648185978167912
+main_gopro_ge60,right,rms_accel_norm_s2,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.167910874154677,0.1702112475013348,0.9864851860236804,0.3238950811735406
+main_gopro_ge60,right,rms_accel_norm_s2,device_repetition_c,0.1845851747082274,0.0904349044466787,2.041083316641977,0.041242546363835
+main_gopro_ge60,right,rms_accel_norm_s2,chronological_attempt_sequence_c,-0.0459252716088599,0.0291516428421448,-1.5753922294377611,0.1151659369160275
+main_gopro_ge60,right,peak_accel_norm_s2,Intercept,3.578362962101325,0.1682071146131006,21.2735529667223,1.9957657664806475e-100
+main_gopro_ge60,right,peak_accel_norm_s2,"C(device, Treatment(reference=""CON""))[T.ATG]",-0.1181038968835887,0.0706297789861618,-1.672154416718879,0.094493876443179
+main_gopro_ge60,right,peak_accel_norm_s2,"C(device, Treatment(reference=""CON""))[T.MST]",0.2972072061040431,0.106559715282393,2.789114116121808,0.0052852438428203
+main_gopro_ge60,right,peak_accel_norm_s2,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",-0.3226948750108223,0.2226058675466097,-1.449624300416321,0.1471633157704863
+main_gopro_ge60,right,peak_accel_norm_s2,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.189590454277047,0.1885991406632138,1.0052561936939226,0.3147735029031511
+main_gopro_ge60,right,peak_accel_norm_s2,device_repetition_c,0.3035255392384535,0.1105997973894193,2.7443589084503213,0.0060629210678155
+main_gopro_ge60,right,peak_accel_norm_s2,chronological_attempt_sequence_c,-0.0923343983598012,0.0337122665138937,-2.7388961914425902,0.0061645834662048
+main_gopro_ge60,right,sparc,Intercept,-33.21382556312113,4.356714561192868,-7.623594590972512,2.4670736465077718e-14
+main_gopro_ge60,right,sparc,"C(device, Treatment(reference=""CON""))[T.ATG]",0.6704119007084051,3.624910707480049,0.1849457696502707,0.8532715711945467
+main_gopro_ge60,right,sparc,"C(device, Treatment(reference=""CON""))[T.MST]",-0.2140133146826438,4.616859294376088,-0.0463547405361343,0.9630275095270312
+main_gopro_ge60,right,sparc,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",8.691944229746271,5.58564140651333,1.5561228509246456,0.119678882204649
+main_gopro_ge60,right,sparc,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",5.654757015579073,3.8469318406724367,1.4699394867860804,0.1415781438765842
+main_gopro_ge60,right,sparc,device_repetition_c,6.828308579009015,9.180862914185134,0.7437545514876119,0.4570249801818374
+main_gopro_ge60,right,sparc,chronological_attempt_sequence_c,-1.60852823630349,2.998487616708152,-0.5364465163505963,0.5916499902464025
+main_gopro_ge60,right,log_dimensionless_jerk,Intercept,-25.897011678947703,0.6487344753743711,-39.9192777044924,0.0
+main_gopro_ge60,right,log_dimensionless_jerk,"C(device, Treatment(reference=""CON""))[T.ATG]",0.2963561254087968,0.4270142612648265,0.694019268890418,0.4876701249978322
+main_gopro_ge60,right,log_dimensionless_jerk,"C(device, Treatment(reference=""CON""))[T.MST]",0.5986630254374699,0.491586258938585,1.2178188762437767,0.2232928094759494
+main_gopro_ge60,right,log_dimensionless_jerk,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",0.8701296658539657,1.3585874113004863,0.6404664570099672,0.5218693895144542
+main_gopro_ge60,right,log_dimensionless_jerk,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.3602215811782727,0.6657980988932669,0.5410372630637674,0.5884818989061475
+main_gopro_ge60,right,log_dimensionless_jerk,device_repetition_c,0.6458143695848311,0.8145398566617654,0.792857911498127,0.4278606114000219
+main_gopro_ge60,right,log_dimensionless_jerk,chronological_attempt_sequence_c,-0.0833237541626408,0.2638529022119997,-0.3157962389805063,0.7521571730067855
+main_gopro_ge60,right,velocity_peak_count,Intercept,1.3517321196824612,0.0289503466793812,46.6913966403442,0.0
+main_gopro_ge60,right,velocity_peak_count,"C(device, Treatment(reference=""CON""))[T.ATG]",-0.0285933919322493,0.0167402816890976,-1.708059187013036,0.0876253607985386
+main_gopro_ge60,right,velocity_peak_count,"C(device, Treatment(reference=""CON""))[T.MST]",-0.1025415225752844,0.025237538687811,-4.063055587302931,4.843448955684723e-05
+main_gopro_ge60,right,velocity_peak_count,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",-0.0391897813528177,0.0576732041004112,-0.6795145503722474,0.4968118914529651
+main_gopro_ge60,right,velocity_peak_count,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",-0.0105017758357901,0.0349446760549361,-0.3005257744922392,0.763776139297986
+main_gopro_ge60,right,velocity_peak_count,device_repetition_c,0.0033686879077288,0.0250675074094455,0.1343846379580394,0.8930984285792809
+main_gopro_ge60,right,velocity_peak_count,chronological_attempt_sequence_c,-0.0042822960495843,0.0085039939250497,-0.5035629243537283,0.6145685518070347
+main_gopro_ge60,right,path_length_norm,Intercept,1.9769831125206632,0.0825174674589742,23.958359040812464,7.560819486072838e-127
+main_gopro_ge60,right,path_length_norm,"C(device, Treatment(reference=""CON""))[T.ATG]",0.1741145308274067,0.0716079371982369,2.4314976473263603,0.0150365459749421
+main_gopro_ge60,right,path_length_norm,"C(device, Treatment(reference=""CON""))[T.MST]",0.8477960109242021,0.0596603526904497,14.210375445197707,7.900082340713568e-46
+main_gopro_ge60,right,path_length_norm,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",-0.2541736529221657,0.1840814373231451,-1.3807674289068994,0.1673504811992007
+main_gopro_ge60,right,path_length_norm,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.1306254466981481,0.1882826638991238,0.6937730962216112,0.4878245171618918
+main_gopro_ge60,right,path_length_norm,device_repetition_c,-0.0108440907768862,0.0731955511736549,-0.1481523207764209,0.8822225589843142
+main_gopro_ge60,right,path_length_norm,chronological_attempt_sequence_c,-0.0164554108659835,0.023882267127566,-0.6890221425833535,0.4908093334091423
+main_gopro_ge60,right,path_efficiency,Intercept,0.0329294887663054,0.0047391384884887,6.94841242691898,3.694197046176584e-12
+main_gopro_ge60,right,path_efficiency,"C(device, Treatment(reference=""CON""))[T.ATG]",-0.0031005030086569,0.0046594835239325,-0.665417742702978,0.5057833397026809
+main_gopro_ge60,right,path_efficiency,"C(device, Treatment(reference=""CON""))[T.MST]",-0.0164462418591235,0.0050325060589404,-3.2680023961235305,0.0010830944866802
+main_gopro_ge60,right,path_efficiency,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",0.0150811777940833,0.0090066820318437,1.6744432345632607,0.0940435218314981
+main_gopro_ge60,right,path_efficiency,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.0020339582640959,0.0090573341330069,0.2245647818913732,0.822317865091039
+main_gopro_ge60,right,path_efficiency,device_repetition_c,0.0050685462147871,0.0054489988014696,0.930179359448592,0.3522782268915259
+main_gopro_ge60,right,path_efficiency,chronological_attempt_sequence_c,-0.0009041545617792,0.0016966223206548,-0.5329144564302473,0.5940927975506514
+main_gopro_ge60,right,stillness_fraction,Intercept,0.4105547002098441,0.0609416793134595,6.736845863700535,1.6186172317958177e-11
+main_gopro_ge60,right,stillness_fraction,"C(device, Treatment(reference=""CON""))[T.ATG]",-0.0854488774601505,0.0247202715906323,-3.456631823273788,0.0005469716053889
+main_gopro_ge60,right,stillness_fraction,"C(device, Treatment(reference=""CON""))[T.MST]",-0.1354774209048161,0.0277058551688662,-4.889848015124806,1.0091386293361557e-06
+main_gopro_ge60,right,stillness_fraction,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",5.992014740034703e-05,0.0755165946174421,0.0007934699347063,0.999366902656069
+main_gopro_ge60,right,stillness_fraction,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.0502316150608377,0.072048556560174,0.6971911369089668,0.4856831848793393
+main_gopro_ge60,right,stillness_fraction,device_repetition_c,-0.0050523565453807,0.0283542159173257,-0.1781871366188442,0.8585760115550963
+main_gopro_ge60,right,stillness_fraction,chronological_attempt_sequence_c,0.0006461296669485,0.009505005758301,0.0679778301432656,0.9458032824359632
+main_gopro_ge60,right,first_sustained_hand_movement_delay_sec,Intercept,1.6022586806086263,0.2339339574237249,6.849192388544314,7.426806230795897e-12
+main_gopro_ge60,right,first_sustained_hand_movement_delay_sec,"C(device, Treatment(reference=""CON""))[T.ATG]",-0.4715374419590684,0.2036846983568048,-2.3150361601196585,0.0206109532288129
+main_gopro_ge60,right,first_sustained_hand_movement_delay_sec,"C(device, Treatment(reference=""CON""))[T.MST]",-0.1249577220666588,0.1928426125575085,-0.647977749364885,0.5169993417322931
+main_gopro_ge60,right,first_sustained_hand_movement_delay_sec,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",-0.4814660810400572,0.2116290396110222,-2.275047327743868,0.0229030908688268
+main_gopro_ge60,right,first_sustained_hand_movement_delay_sec,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",-0.0091635913880696,0.2610010457735109,-0.0351094048719694,0.9719925020337226
+main_gopro_ge60,right,first_sustained_hand_movement_delay_sec,device_repetition_c,0.0288112637234871,0.329083680742727,0.087549961938135,0.9302343739724374
+main_gopro_ge60,right,first_sustained_hand_movement_delay_sec,chronological_attempt_sequence_c,-0.0076463843865327,0.0983138258223083,-0.0777752703912951,0.9380068182173564
+highqc_gopro_ge80,left,mean_accel_norm_s2,Intercept,-0.727679600072904,0.0805617160772381,-9.032573230878608,1.6768153933810946e-19
+highqc_gopro_ge80,left,mean_accel_norm_s2,"C(device, Treatment(reference=""CON""))[T.ATG]",0.0185285583632043,0.1027656601069048,0.1802991227218262,0.8569177443521936
+highqc_gopro_ge80,left,mean_accel_norm_s2,"C(device, Treatment(reference=""CON""))[T.MST]",0.1945855217128584,0.129017377855716,1.5082117226911027,0.1315003479632001
+highqc_gopro_ge80,left,mean_accel_norm_s2,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",0.2227508358612834,0.4150384861543951,0.5366992298117136,0.5914753881406911
+highqc_gopro_ge80,left,mean_accel_norm_s2,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",-0.0177389779141137,0.1554354794508747,-0.1141243812338233,0.9091391950607288
+highqc_gopro_ge80,left,mean_accel_norm_s2,device_repetition_c,-0.0188067658308492,0.1017478564128096,-0.1848369734154084,0.8533569069009657
+highqc_gopro_ge80,left,mean_accel_norm_s2,chronological_attempt_sequence_c,0.0210837877782111,0.0323347775401688,0.6520467862201668,0.5143709908688892
+highqc_gopro_ge80,left,rms_accel_norm_s2,Intercept,0.2199888593516807,0.1784265103163287,1.232938193778867,0.2175988243277332
+highqc_gopro_ge80,left,rms_accel_norm_s2,"C(device, Treatment(reference=""CON""))[T.ATG]",0.0236596172797485,0.1398261746351236,0.1692073557864847,0.8656335441388134
+highqc_gopro_ge80,left,rms_accel_norm_s2,"C(device, Treatment(reference=""CON""))[T.MST]",0.1978483691395755,0.2569356059108229,0.7700309516783932,0.4412815326931486
+highqc_gopro_ge80,left,rms_accel_norm_s2,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",0.5555800043312551,0.697873372533955,0.7961043166240354,0.4259714054016061
+highqc_gopro_ge80,left,rms_accel_norm_s2,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.096722378158952,0.1807336289986727,0.5351653629422907,0.5925355152092664
+highqc_gopro_ge80,left,rms_accel_norm_s2,device_repetition_c,-0.0857000999480622,0.2170023083711969,-0.3949271350674599,0.6928966634754002
+highqc_gopro_ge80,left,rms_accel_norm_s2,chronological_attempt_sequence_c,0.0251679211166788,0.070377651193599,0.3576124052143406,0.720633393456328
+highqc_gopro_ge80,left,peak_accel_norm_s2,Intercept,2.772515892326739,0.3256356759419241,8.514165053650961,1.6779487874385813e-17
+highqc_gopro_ge80,left,peak_accel_norm_s2,"C(device, Treatment(reference=""CON""))[T.ATG]",0.049177764560745,0.2431347109751479,0.2022655027885825,0.8397091673545398
+highqc_gopro_ge80,left,peak_accel_norm_s2,"C(device, Treatment(reference=""CON""))[T.MST]",0.4425715215547146,0.3845283100504407,1.1509465232785072,0.2497542364855807
+highqc_gopro_ge80,left,peak_accel_norm_s2,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",0.9334586665860912,0.3614408141958677,2.582604481629577,0.0098057666057663
+highqc_gopro_ge80,left,peak_accel_norm_s2,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.1455292313571696,0.3780655712362506,0.3849311929708335,0.7002883946078644
+highqc_gopro_ge80,left,peak_accel_norm_s2,device_repetition_c,-0.2713568300723938,0.3667286857150714,-0.7399389266298727,0.4593370531790151
+highqc_gopro_ge80,left,peak_accel_norm_s2,chronological_attempt_sequence_c,0.0545083903442874,0.1236752765125324,0.4407379702827181,0.659402704573416
+highqc_gopro_ge80,left,sparc,Intercept,-45.62383552008553,8.078786067162724,-5.647362752373099,1.6292781186094447e-08
+highqc_gopro_ge80,left,sparc,"C(device, Treatment(reference=""CON""))[T.ATG]",4.2724068099300005,6.590744944849768,0.6482433845765195,0.5168275455178076
+highqc_gopro_ge80,left,sparc,"C(device, Treatment(reference=""CON""))[T.MST]",-7.272678155547858,9.301347206279758,-0.7818951377965706,0.4342762027291446
+highqc_gopro_ge80,left,sparc,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",5.63736277092871,15.156675718106134,0.3719392613377831,0.7099380724662628
+highqc_gopro_ge80,left,sparc,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",11.766308507078929,8.089131245367522,1.4545824700047052,0.1457848869698502
+highqc_gopro_ge80,left,sparc,device_repetition_c,12.60080153915992,12.596665225273044,1.0003283657867306,0.3171516241385417
+highqc_gopro_ge80,left,sparc,chronological_attempt_sequence_c,-2.5623073274842025,3.848566511986132,-0.6657822645143454,0.5055502826346678
+highqc_gopro_ge80,left,log_dimensionless_jerk,Intercept,-27.30743831363387,0.5215134455687037,-52.3619065733875,0.0
+highqc_gopro_ge80,left,log_dimensionless_jerk,"C(device, Treatment(reference=""CON""))[T.ATG]",-0.844607174943817,0.5915607080867074,-1.4277607748417591,0.153360726591076
+highqc_gopro_ge80,left,log_dimensionless_jerk,"C(device, Treatment(reference=""CON""))[T.MST]",-1.416694230330937,0.961765466529341,-1.473014242696057,0.1407471953737196
+highqc_gopro_ge80,left,log_dimensionless_jerk,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",0.1939545937366204,0.8711764036478851,0.2226352698769991,0.8238193839115736
+highqc_gopro_ge80,left,log_dimensionless_jerk,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",-1.0617990759887246,1.7041483337220928,-0.6230672852694755,0.5332403068213257
+highqc_gopro_ge80,left,log_dimensionless_jerk,device_repetition_c,0.622311903588781,1.381739327301197,0.4503830001019627,0.652434300652873
+highqc_gopro_ge80,left,log_dimensionless_jerk,chronological_attempt_sequence_c,-0.0869598178871059,0.421394260606549,-0.2063621316577431,0.8365080487335231
+highqc_gopro_ge80,left,velocity_peak_count,Intercept,1.4162955193410918,0.0257982517085533,54.89889529496768,0.0
+highqc_gopro_ge80,left,velocity_peak_count,"C(device, Treatment(reference=""CON""))[T.ATG]",-0.0044085043190859,0.0158272034695284,-0.2785396881750763,0.7805981031828577
+highqc_gopro_ge80,left,velocity_peak_count,"C(device, Treatment(reference=""CON""))[T.MST]",-0.0487123042204721,0.0395717041046819,-1.230988286266618,0.2183272453714808
+highqc_gopro_ge80,left,velocity_peak_count,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",0.0364073829102443,0.1573956234726053,0.2313112785920698,0.817072985212713
+highqc_gopro_ge80,left,velocity_peak_count,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.0172779399972903,0.0390371360305981,0.4426026536308293,0.6580531650362966
+highqc_gopro_ge80,left,velocity_peak_count,device_repetition_c,-0.0183839653616405,0.038114973890422,-0.4823292130408683,0.6295720980266467
+highqc_gopro_ge80,left,velocity_peak_count,chronological_attempt_sequence_c,0.0015616214504812,0.0134282846311733,0.1162934427868726,0.9074199822511736
+highqc_gopro_ge80,left,path_length_norm,Intercept,1.44837637302784,0.1565639724763926,9.251019568031415,2.223613497418277e-20
+highqc_gopro_ge80,left,path_length_norm,"C(device, Treatment(reference=""CON""))[T.ATG]",0.0157281448038055,0.1138514697069539,0.1381461727660499,0.8901248949905122
+highqc_gopro_ge80,left,path_length_norm,"C(device, Treatment(reference=""CON""))[T.MST]",0.6285217817938432,0.1178659219534812,5.332514872635578,9.686183339089357e-08
+highqc_gopro_ge80,left,path_length_norm,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",0.2314640021712107,0.3408587442392011,0.6790613592379444,0.4970989845509838
+highqc_gopro_ge80,left,path_length_norm,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.071452025156923,0.2933380711425801,0.2435825151457854,0.8075541713701462
+highqc_gopro_ge80,left,path_length_norm,device_repetition_c,-0.047798324168937,0.1539824711327379,-0.3104140608818607,0.7562461028530012
+highqc_gopro_ge80,left,path_length_norm,chronological_attempt_sequence_c,-0.0182385537175081,0.0426453443831195,-0.4276798319098025,0.6688842352470862
+highqc_gopro_ge80,left,path_efficiency,Intercept,0.0571122273691028,0.0186936658304673,3.055164668452563,0.0022493698411907
+highqc_gopro_ge80,left,path_efficiency,"C(device, Treatment(reference=""CON""))[T.ATG]",-0.0246224768292846,0.0228698669768564,-1.07663402039906,0.2816437993472125
+highqc_gopro_ge80,left,path_efficiency,"C(device, Treatment(reference=""CON""))[T.MST]",-0.0301006188854328,0.0144501076786417,-2.08307228948361,0.0372446347839667
+highqc_gopro_ge80,left,path_efficiency,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",0.0566077035961797,0.0937980954768183,0.603505895385371,0.5461721948203075
+highqc_gopro_ge80,left,path_efficiency,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.0017034839161534,0.0122195548180526,0.139406381125832,0.8891290301897969
+highqc_gopro_ge80,left,path_efficiency,device_repetition_c,0.0006814539984374,0.0197725342125777,0.034464676662639,0.972506609544264
+highqc_gopro_ge80,left,path_efficiency,chronological_attempt_sequence_c,0.0004461910244635,0.0061674258215209,0.0723463949751204,0.9423262435508972
+highqc_gopro_ge80,left,stillness_fraction,Intercept,0.6192282867182761,0.0505106663683347,12.25935690894926,1.4968305596004026e-34
+highqc_gopro_ge80,left,stillness_fraction,"C(device, Treatment(reference=""CON""))[T.ATG]",0.0056411629888157,0.0283448788525556,0.1990187722501823,0.8422480601887412
+highqc_gopro_ge80,left,stillness_fraction,"C(device, Treatment(reference=""CON""))[T.MST]",-0.0930985125485142,0.0462600034218152,-2.012505526634071,0.0441666746870543
+highqc_gopro_ge80,left,stillness_fraction,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",-0.0334439977619373,0.0779426594971633,-0.4290846370613584,0.6678616320584676
+highqc_gopro_ge80,left,stillness_fraction,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.0331019081148989,0.0801122196621487,0.4131942449541047,0.6794643042690403
+highqc_gopro_ge80,left,stillness_fraction,device_repetition_c,0.0359263698443712,0.0437276702043182,0.8215935053595287,0.411308286868065
+highqc_gopro_ge80,left,stillness_fraction,chronological_attempt_sequence_c,-0.0187490385490658,0.0155514714575675,-1.205611867675864,0.2279671811052088
+highqc_gopro_ge80,left,first_sustained_hand_movement_delay_sec,Intercept,2.5928057424083133,0.3738419903363639,6.93556585250212,4.045983678073015e-12
+highqc_gopro_ge80,left,first_sustained_hand_movement_delay_sec,"C(device, Treatment(reference=""CON""))[T.ATG]",0.188493608028661,0.5227671349171021,0.3605689712276029,0.7184216884080445
+highqc_gopro_ge80,left,first_sustained_hand_movement_delay_sec,"C(device, Treatment(reference=""CON""))[T.MST]",-0.8308695719434251,0.3234081302330953,-2.569105394303411,0.0101961441986939
+highqc_gopro_ge80,left,first_sustained_hand_movement_delay_sec,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",0.4761708120020366,1.8490488115463253,0.257522034588056,0.7967758076055852
+highqc_gopro_ge80,left,first_sustained_hand_movement_delay_sec,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.2989972157749431,0.4829668837332828,0.619084301316327,0.5358608246588962
+highqc_gopro_ge80,left,first_sustained_hand_movement_delay_sec,device_repetition_c,-0.044094374043755,0.6343217922411613,-0.0695142033319753,0.944580327377979
+highqc_gopro_ge80,left,first_sustained_hand_movement_delay_sec,chronological_attempt_sequence_c,-0.0424472726190218,0.1712703292421092,-0.2478378643099236,0.8042598571854024
+highqc_gopro_ge80,right,mean_accel_norm_s2,Intercept,-0.4144562575366566,0.1087915295681786,-3.8096371949336434,0.0001391708633388
+highqc_gopro_ge80,right,mean_accel_norm_s2,"C(device, Treatment(reference=""CON""))[T.ATG]",0.0103956693397798,0.0610852263263575,0.1701830371265107,0.8648661915332043
+highqc_gopro_ge80,right,mean_accel_norm_s2,"C(device, Treatment(reference=""CON""))[T.MST]",0.3443342195823366,0.0671877842226813,5.124952750951051,2.9761237023654215e-07
+highqc_gopro_ge80,right,mean_accel_norm_s2,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",-0.0493045614659734,0.1380920609405323,-0.357041245746965,0.7210609283268081
+highqc_gopro_ge80,right,mean_accel_norm_s2,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.1935917076712322,0.1481906654509758,1.3063691095663237,0.1914270654309452
+highqc_gopro_ge80,right,mean_accel_norm_s2,device_repetition_c,0.1274883529977792,0.0806166815570037,1.5814140514780768,0.113783396702114
+highqc_gopro_ge80,right,mean_accel_norm_s2,chronological_attempt_sequence_c,-0.0333528468988394,0.0251477017917223,-1.326278129710362,0.1847475882733501
+highqc_gopro_ge80,right,rms_accel_norm_s2,Intercept,0.6234454900323922,0.1279307743403367,4.873303497513649,1.097474248581313e-06
+highqc_gopro_ge80,right,rms_accel_norm_s2,"C(device, Treatment(reference=""CON""))[T.ATG]",-0.0870217229530145,0.0732893603430754,-1.1873718442302736,0.2350809808197073
+highqc_gopro_ge80,right,rms_accel_norm_s2,"C(device, Treatment(reference=""CON""))[T.MST]",0.2467088141031418,0.085479742878207,2.88616701216166,0.0038996515980223
+highqc_gopro_ge80,right,rms_accel_norm_s2,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",-0.1717812771543544,0.1379349594700866,-1.2453788206724188,0.2129925347132543
+highqc_gopro_ge80,right,rms_accel_norm_s2,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.2857956256187691,0.1762353578164033,1.6216701867312135,0.1048739856056014
+highqc_gopro_ge80,right,rms_accel_norm_s2,device_repetition_c,0.3002906007866872,0.0931377208836551,3.2241566353314703,0.0012634427173158
+highqc_gopro_ge80,right,rms_accel_norm_s2,chronological_attempt_sequence_c,-0.0890537076784375,0.0287511627237428,-3.097395000477553,0.0019522954395912
+highqc_gopro_ge80,right,peak_accel_norm_s2,Intercept,3.5201015579976067,0.2025097261660576,17.38238268670182,1.121936312684418e-67
+highqc_gopro_ge80,right,peak_accel_norm_s2,"C(device, Treatment(reference=""CON""))[T.ATG]",-0.0365252635057992,0.0967601065078787,-0.3774826715680104,0.7058149396407435
+highqc_gopro_ge80,right,peak_accel_norm_s2,"C(device, Treatment(reference=""CON""))[T.MST]",0.3240306979375473,0.1482328552803754,2.185957339381061,0.0288187265779118
+highqc_gopro_ge80,right,peak_accel_norm_s2,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",-0.4768260863633166,0.1630743355880419,-2.923979942299896,0.0034558701436767
+highqc_gopro_ge80,right,peak_accel_norm_s2,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.3312488910503866,0.1979143604334863,1.673698110257696,0.094189945379926
+highqc_gopro_ge80,right,peak_accel_norm_s2,device_repetition_c,0.3694660002821262,0.1480511222919868,2.4955298856395323,0.0125769160345395
+highqc_gopro_ge80,right,peak_accel_norm_s2,chronological_attempt_sequence_c,-0.1208380910736737,0.0449680641142353,-2.6871979804756707,0.0072054230846181
+highqc_gopro_ge80,right,sparc,Intercept,-46.80804837012112,7.228427807207814,-6.475550371195041,9.44669656742134e-11
+highqc_gopro_ge80,right,sparc,"C(device, Treatment(reference=""CON""))[T.ATG]",5.001053723515378,6.636299670865501,0.7535907013769836,0.4510950295491005
+highqc_gopro_ge80,right,sparc,"C(device, Treatment(reference=""CON""))[T.MST]",7.243338954076063,5.525162150659047,1.310973100257713,0.1898668518615851
+highqc_gopro_ge80,right,sparc,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",16.288151241020852,7.555177000275659,2.155892739564746,0.0310920415381957
+highqc_gopro_ge80,right,sparc,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",12.610175975008833,6.170488416556537,2.0436268774402766,0.0409904219683997
+highqc_gopro_ge80,right,sparc,device_repetition_c,15.519265867929333,13.39630734961844,1.1584734108367076,0.2466708962613762
+highqc_gopro_ge80,right,sparc,chronological_attempt_sequence_c,-4.431649224328817,4.473033757365844,-0.990747994474918,0.3218086491259294
+highqc_gopro_ge80,right,log_dimensionless_jerk,Intercept,-27.85092302679505,0.7977693778744986,-34.91099533175668,5.063258760061462e-267
+highqc_gopro_ge80,right,log_dimensionless_jerk,"C(device, Treatment(reference=""CON""))[T.ATG]",0.4193365472711772,0.6299475394795654,0.665668997798792,0.505622693668679
+highqc_gopro_ge80,right,log_dimensionless_jerk,"C(device, Treatment(reference=""CON""))[T.MST]",1.7298872117967428,0.4233534469160809,4.0861536014366,4.385834850269192e-05
+highqc_gopro_ge80,right,log_dimensionless_jerk,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",1.6406493030000795,1.2133351542324913,1.352181462209335,0.1763172724411817
+highqc_gopro_ge80,right,log_dimensionless_jerk,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",1.2202713296355454,0.7084393083942243,1.7224782916146468,0.0849829119443895
+highqc_gopro_ge80,right,log_dimensionless_jerk,device_repetition_c,1.9401297745364876,1.1907128518770431,1.6293850960607852,0.1032315218621731
+highqc_gopro_ge80,right,log_dimensionless_jerk,chronological_attempt_sequence_c,-0.536820538894375,0.3917281662709384,-1.3703904521460517,0.170565050935919
+highqc_gopro_ge80,right,velocity_peak_count,Intercept,1.4063492358166696,0.0282679611704957,49.75064269171714,0.0
+highqc_gopro_ge80,right,velocity_peak_count,"C(device, Treatment(reference=""CON""))[T.ATG]",-0.0310229400065042,0.019085632819036,-1.6254603816731648,0.1040644989864771
+highqc_gopro_ge80,right,velocity_peak_count,"C(device, Treatment(reference=""CON""))[T.MST]",-0.1398863777257548,0.0272429816589275,-5.13476753305062,2.824929821248531e-07
+highqc_gopro_ge80,right,velocity_peak_count,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",-0.0751920699590046,0.0641203267684914,-1.1726713469581664,0.240927625976364
+highqc_gopro_ge80,right,velocity_peak_count,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",-0.0407279400942512,0.0381861401367165,-1.0665634166855935,0.2861690276246972
+highqc_gopro_ge80,right,velocity_peak_count,device_repetition_c,-0.0302681004775101,0.0309607705899132,-0.9776274912024054,0.3282585954419251
+highqc_gopro_ge80,right,velocity_peak_count,chronological_attempt_sequence_c,0.0071581381293921,0.0103092759635248,0.694339559317086,0.4874692878674099
+highqc_gopro_ge80,right,path_length_norm,Intercept,2.120087934408906,0.1566467521564922,13.534196561515104,9.825077151637064e-42
+highqc_gopro_ge80,right,path_length_norm,"C(device, Treatment(reference=""CON""))[T.ATG]",0.1957272176432225,0.1148223977377054,1.7046083473220277,0.0882674935128637
+highqc_gopro_ge80,right,path_length_norm,"C(device, Treatment(reference=""CON""))[T.MST]",0.82222037276749,0.0820245128326704,10.024081148093067,1.1946559954009832e-23
+highqc_gopro_ge80,right,path_length_norm,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",-0.5488925226133269,0.2285084349416377,-2.402066789147267,0.016302731577449
+highqc_gopro_ge80,right,path_length_norm,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.0436693404924298,0.2225051310253493,0.1962621728820029,0.8444049672339122
+highqc_gopro_ge80,right,path_length_norm,device_repetition_c,-0.0841550127593889,0.1194193464362696,-0.7047016691244401,0.4809959123985531
+highqc_gopro_ge80,right,path_length_norm,chronological_attempt_sequence_c,0.0071243829399933,0.037588917752142,0.1895341330913239,0.8496742055474116
+highqc_gopro_ge80,right,path_efficiency,Intercept,0.0329294887663054,0.0047391384884887,6.94841242691898,3.694197046176584e-12
+highqc_gopro_ge80,right,path_efficiency,"C(device, Treatment(reference=""CON""))[T.ATG]",-0.0031005030086569,0.0046594835239325,-0.665417742702978,0.5057833397026809
+highqc_gopro_ge80,right,path_efficiency,"C(device, Treatment(reference=""CON""))[T.MST]",-0.0164462418591235,0.0050325060589404,-3.2680023961235305,0.0010830944866802
+highqc_gopro_ge80,right,path_efficiency,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",0.0150811777940833,0.0090066820318437,1.6744432345632607,0.0940435218314981
+highqc_gopro_ge80,right,path_efficiency,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.0020339582640959,0.0090573341330069,0.2245647818913732,0.822317865091039
+highqc_gopro_ge80,right,path_efficiency,device_repetition_c,0.0050685462147871,0.0054489988014696,0.930179359448592,0.3522782268915259
+highqc_gopro_ge80,right,path_efficiency,chronological_attempt_sequence_c,-0.0009041545617792,0.0016966223206548,-0.5329144564302473,0.5940927975506514
+highqc_gopro_ge80,right,stillness_fraction,Intercept,0.4827593431344815,0.0640000325674118,7.543110898045037,4.5889059483721347e-14
+highqc_gopro_ge80,right,stillness_fraction,"C(device, Treatment(reference=""CON""))[T.ATG]",-0.0867712623393313,0.023454125591855,-3.6996161719823246,0.0002159257837419
+highqc_gopro_ge80,right,stillness_fraction,"C(device, Treatment(reference=""CON""))[T.MST]",-0.1733846185311751,0.0273389823427671,-6.34202898839964,2.267586336477604e-10
+highqc_gopro_ge80,right,stillness_fraction,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",-0.0092832266208214,0.0635367839212341,-0.146107908645955,0.8838362032223979
+highqc_gopro_ge80,right,stillness_fraction,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.0089369040227442,0.0755058943157393,0.1183603492645656,0.905782141587491
+highqc_gopro_ge80,right,stillness_fraction,device_repetition_c,-0.0222440286202341,0.0403256589243904,-0.5516097991589209,0.5812157212479507
+highqc_gopro_ge80,right,stillness_fraction,chronological_attempt_sequence_c,0.0073039409770914,0.0132654774209006,0.5505976713347343,0.5819095055474027
+highqc_gopro_ge80,right,first_sustained_hand_movement_delay_sec,Intercept,1.5646835530299792,0.304680418402026,5.135491021170184,2.814083159589237e-07
+highqc_gopro_ge80,right,first_sustained_hand_movement_delay_sec,"C(device, Treatment(reference=""CON""))[T.ATG]",-0.7526509336379663,0.2218486629448502,-3.392632273042228,0.0006922450064468
+highqc_gopro_ge80,right,first_sustained_hand_movement_delay_sec,"C(device, Treatment(reference=""CON""))[T.MST]",-0.2426161448181162,0.2308296273836065,-1.0510615451235912,0.293230324213055
+highqc_gopro_ge80,right,first_sustained_hand_movement_delay_sec,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",-0.33651797915943,0.2636427827295484,-1.276416428606122,0.2018083518027983
+highqc_gopro_ge80,right,first_sustained_hand_movement_delay_sec,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.0780978685100795,0.305124907384176,0.2559537639178969,0.7979865393272485
+highqc_gopro_ge80,right,first_sustained_hand_movement_delay_sec,device_repetition_c,0.1206775221787194,0.4188693652604748,0.2881030034356316,0.7732678936468838
+highqc_gopro_ge80,right,first_sustained_hand_movement_delay_sec,chronological_attempt_sequence_c,-0.0372310221770733,0.1262780239638643,-0.2948337407285322,0.7681208901247781
+recovery_allsource_ge60,left,mean_accel_norm_s2,Intercept,-0.7195054179581435,0.0803881095168195,-8.950396050893598,3.5420919181911553e-19
+recovery_allsource_ge60,left,mean_accel_norm_s2,"C(device, Treatment(reference=""CON""))[T.ATG]",0.0140245755588503,0.0662094566471879,0.2118213359397207,0.8322464225250258
+recovery_allsource_ge60,left,mean_accel_norm_s2,"C(device, Treatment(reference=""CON""))[T.MST]",0.0938110137219261,0.0700349156218377,1.3394892089036048,0.1804114651162809
+recovery_allsource_ge60,left,mean_accel_norm_s2,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",0.3882835211866335,0.1126757827211999,3.446024618683017,0.0005688985292969
+recovery_allsource_ge60,left,mean_accel_norm_s2,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.1273847322648951,0.097507166988208,1.306414043188234,0.1914117927525827
+recovery_allsource_ge60,left,mean_accel_norm_s2,"C(motion_source, Treatment(reference=""gopro_left""))[T.cae_hand]",0.3854051850862067,0.0765206265992688,5.036618258558392,4.738284161259423e-07
+recovery_allsource_ge60,left,mean_accel_norm_s2,device_repetition_c,-0.0620100354970816,0.063432991151473,-0.977567577556078,0.3282882395821805
+recovery_allsource_ge60,left,mean_accel_norm_s2,chronological_attempt_sequence_c,0.0293489945820398,0.0208290845464049,1.4090391018699595,0.1588236062837424
+recovery_allsource_ge60,left,rms_accel_norm_s2,Intercept,0.2869123892563355,0.1224983553304163,2.3421733988382387,0.0191718054254787
+recovery_allsource_ge60,left,rms_accel_norm_s2,"C(device, Treatment(reference=""CON""))[T.ATG]",-0.0030017807596394,0.0984578608326522,-0.0304879745939381,0.9756778838081428
+recovery_allsource_ge60,left,rms_accel_norm_s2,"C(device, Treatment(reference=""CON""))[T.MST]",0.0916072625099957,0.1293857808293031,0.7080164599450997,0.4789350359047816
+recovery_allsource_ge60,left,rms_accel_norm_s2,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",0.5047514614064906,0.1416247630658662,3.5640056899635764,0.0003652380312681
+recovery_allsource_ge60,left,rms_accel_norm_s2,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.2261888236121767,0.1895139612812665,1.1935206360679635,0.2326655351979796
+recovery_allsource_ge60,left,rms_accel_norm_s2,"C(motion_source, Treatment(reference=""gopro_left""))[T.cae_hand]",0.2710044442715382,0.098455421289513,2.7525598968759297,0.0059131328469618
+recovery_allsource_ge60,left,rms_accel_norm_s2,device_repetition_c,-0.0836146630089368,0.1355798410369073,-0.6167189928049511,0.537420091508746
+recovery_allsource_ge60,left,rms_accel_norm_s2,chronological_attempt_sequence_c,0.022695794678752,0.0432617145233557,0.5246161630163599,0.5998500484412128
+recovery_allsource_ge60,left,peak_accel_norm_s2,Intercept,2.861548174146386,0.2166283651356268,13.209480542194122,7.735641220696869e-40
+recovery_allsource_ge60,left,peak_accel_norm_s2,"C(device, Treatment(reference=""CON""))[T.ATG]",0.0569123351158544,0.1630409137636425,0.3490678125023219,0.7270384004057451
+recovery_allsource_ge60,left,peak_accel_norm_s2,"C(device, Treatment(reference=""CON""))[T.MST]",0.3333692869902423,0.2003086009634186,1.6642784452931398,0.0960567978364919
+recovery_allsource_ge60,left,peak_accel_norm_s2,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",0.5805041678215981,0.1722975555364654,3.369195610547933,0.0007538790674829
+recovery_allsource_ge60,left,peak_accel_norm_s2,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.28369274416774,0.298404857238606,0.9506974745417692,0.3417579705844503
+recovery_allsource_ge60,left,peak_accel_norm_s2,"C(motion_source, Treatment(reference=""gopro_left""))[T.cae_hand]",0.3590464040752859,0.1723289121302635,2.083494868254507,0.037206138977723
+recovery_allsource_ge60,left,peak_accel_norm_s2,device_repetition_c,-0.0684135599544801,0.2277276984564235,-0.3004182645246878,0.7638581336604402
+recovery_allsource_ge60,left,peak_accel_norm_s2,chronological_attempt_sequence_c,-0.0067880782809324,0.0741312925319098,-0.0915683249150218,0.9270410187437332
+recovery_allsource_ge60,left,sparc,Intercept,-41.40875672423876,5.181667432303258,-7.991396064149279,1.334191729631221e-15
+recovery_allsource_ge60,left,sparc,"C(device, Treatment(reference=""CON""))[T.ATG]",0.0525965585875212,3.1828179589680814,0.0165251545220556,0.9868154344198375
+recovery_allsource_ge60,left,sparc,"C(device, Treatment(reference=""CON""))[T.MST]",-6.701301144871755,5.044786902615296,-1.3283615887516869,0.1840586824519415
+recovery_allsource_ge60,left,sparc,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",15.523133615810217,9.983990928821024,1.554802455899596,0.1199931240663492
+recovery_allsource_ge60,left,sparc,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",9.70429182376985,5.3446496054221,1.815702158271504,0.0694160728170598
+recovery_allsource_ge60,left,sparc,"C(motion_source, Treatment(reference=""gopro_left""))[T.cae_hand]",14.511401766318208,4.235041666369578,3.4265074371175848,0.0006113970187606
+recovery_allsource_ge60,left,sparc,device_repetition_c,4.391763066360175,5.724762707739767,0.7671519835088707,0.4429911576781831
+recovery_allsource_ge60,left,sparc,chronological_attempt_sequence_c,-0.5043191140582123,1.8288774448980865,-0.2757533674359002,0.7827375028147865
+recovery_allsource_ge60,left,log_dimensionless_jerk,Intercept,-27.213268523946063,0.4328061541411983,-62.876343747801776,0.0
+recovery_allsource_ge60,left,log_dimensionless_jerk,"C(device, Treatment(reference=""CON""))[T.ATG]",-0.5139174363152582,0.4097762202439157,-1.2541416776438452,0.2097905139628182
+recovery_allsource_ge60,left,log_dimensionless_jerk,"C(device, Treatment(reference=""CON""))[T.MST]",-1.217427715589367,0.588503327779862,-2.068684505459182,0.0385757021414785
+recovery_allsource_ge60,left,log_dimensionless_jerk,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",1.763452500390411,0.8547432774464739,2.0631370224503955,0.0390996115513385
+recovery_allsource_ge60,left,log_dimensionless_jerk,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.2959419471466789,1.0617322439815085,0.2787350095320579,0.7804481931330238
+recovery_allsource_ge60,left,log_dimensionless_jerk,"C(motion_source, Treatment(reference=""gopro_left""))[T.cae_hand]",3.089799668046166,0.7951497063642998,3.885808726728708,0.0001019897876463
+recovery_allsource_ge60,left,log_dimensionless_jerk,device_repetition_c,0.4750707690150308,0.7234326990962655,0.6566896542117932,0.5113804880895318
+recovery_allsource_ge60,left,log_dimensionless_jerk,chronological_attempt_sequence_c,-0.0397147440599721,0.2268539390036021,-0.1750674651469969,0.8610266224824495
+recovery_allsource_ge60,left,velocity_peak_count,Intercept,1.4245362140551086,0.0294311828106808,48.40227534240086,0.0
+recovery_allsource_ge60,left,velocity_peak_count,"C(device, Treatment(reference=""CON""))[T.ATG]",0.0042145053913548,0.0196950336035993,0.2139882305448149,0.8305562352739201
+recovery_allsource_ge60,left,velocity_peak_count,"C(device, Treatment(reference=""CON""))[T.MST]",-0.0369374127787599,0.0232928241875102,-1.5857850675988876,0.1127880741593962
+recovery_allsource_ge60,left,velocity_peak_count,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",-0.064971597876965,0.0205105813617136,-3.1677111794717394,0.001536440761933
+recovery_allsource_ge60,left,velocity_peak_count,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",-0.0575979442546495,0.0413713792381224,-1.3922171635403158,0.1638566468677782
+recovery_allsource_ge60,left,velocity_peak_count,"C(motion_source, Treatment(reference=""gopro_left""))[T.cae_hand]",-0.1792991127657395,0.039589771456903,-4.52892517858868,5.928448600377559e-06
+recovery_allsource_ge60,left,velocity_peak_count,device_repetition_c,-0.0279533763914002,0.0266224134640435,-1.0499940746977845,0.2937208370025814
+recovery_allsource_ge60,left,velocity_peak_count,chronological_attempt_sequence_c,0.004012897412277,0.0089595552443336,0.4478902470984703,0.6542324074121351
+recovery_allsource_ge60,left,path_length_norm,Intercept,1.3372536277390012,0.1113509040244348,12.009364804488287,3.172725878091519e-33
+recovery_allsource_ge60,left,path_length_norm,"C(device, Treatment(reference=""CON""))[T.ATG]",0.0993456391462988,0.0766272166390215,1.2964798083988889,0.1948102320671789
+recovery_allsource_ge60,left,path_length_norm,"C(device, Treatment(reference=""CON""))[T.MST]",0.6571010514947551,0.0670636609740589,9.798168515568062,1.1464544756145147e-22
+recovery_allsource_ge60,left,path_length_norm,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",0.181362939757599,0.2141421054492136,0.8469279751272991,0.3970352683862171
+recovery_allsource_ge60,left,path_length_norm,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.1525713869971631,0.1948246631533706,0.7831215233620362,0.433555753074806
+recovery_allsource_ge60,left,path_length_norm,"C(motion_source, Treatment(reference=""gopro_left""))[T.cae_hand]",0.5496666065785698,0.1560138234325494,3.5231916921529134,0.0004263828508856
+recovery_allsource_ge60,left,path_length_norm,device_repetition_c,-0.0391733732630326,0.0973364254747259,-0.4024533782905792,0.6873503930229933
+recovery_allsource_ge60,left,path_length_norm,chronological_attempt_sequence_c,-0.013695736676214,0.0304597043996065,-0.4496345892441087,0.6529739430936243
+recovery_allsource_ge60,left,path_efficiency,Intercept,0.0565313083566877,0.0164662362218259,3.433165150500865,0.0005965785929411
+recovery_allsource_ge60,left,path_efficiency,"C(device, Treatment(reference=""CON""))[T.ATG]",-0.0179914404063588,0.0163514476350797,-1.1002964879856088,0.2712029618514652
+recovery_allsource_ge60,left,path_efficiency,"C(device, Treatment(reference=""CON""))[T.MST]",-0.0277104142338681,0.0109392644083647,-2.533114951740207,0.0113053871457846
+recovery_allsource_ge60,left,path_efficiency,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",0.0157007934324464,0.0527292997842594,0.2977622213207042,0.7658846503263625
+recovery_allsource_ge60,left,path_efficiency,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.0005638688029498,0.0118083017055842,0.0477518966747897,0.9619139736804058
+recovery_allsource_ge60,left,path_efficiency,"C(motion_source, Treatment(reference=""gopro_left""))[T.cae_hand]",-0.0205341408830698,0.0124952025159843,-1.64336199087625,0.1003080593302727
+recovery_allsource_ge60,left,path_efficiency,device_repetition_c,0.0056457211947436,0.014652041499288,0.3853197655096744,0.7000005192238338
+recovery_allsource_ge60,left,path_efficiency,chronological_attempt_sequence_c,-0.0014911960361544,0.0046183770165062,-0.322883132066706,0.7467837513559825
+recovery_allsource_ge60,left,stillness_fraction,Intercept,0.6228745403587483,0.0446024664555277,13.965024579521952,2.548175274240699e-44
+recovery_allsource_ge60,left,stillness_fraction,"C(device, Treatment(reference=""CON""))[T.ATG]",0.0009047640504171,0.027417381057001,0.0329996526121929,0.973674864667034
+recovery_allsource_ge60,left,stillness_fraction,"C(device, Treatment(reference=""CON""))[T.MST]",-0.0727024072721385,0.0306002669691213,-2.375874934212256,0.0175073956875612
+recovery_allsource_ge60,left,stillness_fraction,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",-0.0835720635937353,0.0574853403163109,-1.4537978401777418,0.1460023624742902
+recovery_allsource_ge60,left,stillness_fraction,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",-0.0077502311672665,0.0503815745850163,-0.1538306658952943,0.8777432537313284
+recovery_allsource_ge60,left,stillness_fraction,"C(motion_source, Treatment(reference=""gopro_left""))[T.cae_hand]",-0.2394425891697234,0.0849303865771499,-2.8192805757715003,0.0048131425960584
+recovery_allsource_ge60,left,stillness_fraction,device_repetition_c,0.0012587277725223,0.0368002508626305,0.0342043258678043,0.9727142170173352
+recovery_allsource_ge60,left,stillness_fraction,chronological_attempt_sequence_c,-0.0075641741484722,0.0119239554263252,-0.6343678651944963,0.5258407761145794
+recovery_allsource_ge60,left,first_sustained_hand_movement_delay_sec,Intercept,2.6242901128962446,0.2683851351638274,9.778075493243424,1.3984424656384193e-22
+recovery_allsource_ge60,left,first_sustained_hand_movement_delay_sec,"C(device, Treatment(reference=""CON""))[T.ATG]",0.1742157659692426,0.3214521354911226,0.5419648735668576,0.587842704369844
+recovery_allsource_ge60,left,first_sustained_hand_movement_delay_sec,"C(device, Treatment(reference=""CON""))[T.MST]",-0.2406169298555321,0.2199752359956832,-1.0938364437543049,0.2740267173915438
+recovery_allsource_ge60,left,first_sustained_hand_movement_delay_sec,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",-0.2328600370394996,0.3048882174192291,-0.7637554478509448,0.4450129911133246
+recovery_allsource_ge60,left,first_sustained_hand_movement_delay_sec,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",-0.0267273415966428,0.3326792296247919,-0.0803396762304246,0.9359671031134776
+recovery_allsource_ge60,left,first_sustained_hand_movement_delay_sec,"C(motion_source, Treatment(reference=""gopro_left""))[T.cae_hand]",-1.255477002686455,0.3367054475815106,-3.728710098705859,0.0001924624089952
+recovery_allsource_ge60,left,first_sustained_hand_movement_delay_sec,device_repetition_c,-0.5105974229002858,0.3407955903856723,-1.4982512605942222,0.134067981987366
+recovery_allsource_ge60,left,first_sustained_hand_movement_delay_sec,chronological_attempt_sequence_c,0.1117104719845364,0.1024986048062864,1.0898730982305522,0.2757690483542829
+recovery_allsource_ge60,right,mean_accel_norm_s2,Intercept,-0.2045426183734863,0.1104660851745944,-1.851632725557365,0.0640785804172794
+recovery_allsource_ge60,right,mean_accel_norm_s2,"C(device, Treatment(reference=""CON""))[T.ATG]",0.0278478077028579,0.0557679798451626,0.4993512008176776,0.6175319909194424
+recovery_allsource_ge60,right,mean_accel_norm_s2,"C(device, Treatment(reference=""CON""))[T.MST]",0.2256484494453042,0.0698691012618175,3.229588550162414,0.0012396848473065
+recovery_allsource_ge60,right,mean_accel_norm_s2,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",-0.0850975227888823,0.2254210159813413,-0.3775048320957176,0.705798474086847
+recovery_allsource_ge60,right,mean_accel_norm_s2,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.0350644689364213,0.1443147305874019,0.2429722093766795,0.8080269261355509
+recovery_allsource_ge60,right,mean_accel_norm_s2,"C(motion_source, Treatment(reference=""gopro_right""))[T.cae_hand]",-0.3839301601015493,0.169655541163968,-2.2629980575199125,0.0236358090300301
+recovery_allsource_ge60,right,mean_accel_norm_s2,device_repetition_c,0.0678346546840163,0.0704819082681507,0.9624406652830272,0.3358282948603959
+recovery_allsource_ge60,right,mean_accel_norm_s2,chronological_attempt_sequence_c,-0.0117390658322128,0.0236787457738658,-0.4957638358180806,0.620061042723465
+recovery_allsource_ge60,right,rms_accel_norm_s2,Intercept,0.7834294999403806,0.1255533529136534,6.23981344790662,4.380930499738373e-10
+recovery_allsource_ge60,right,rms_accel_norm_s2,"C(device, Treatment(reference=""CON""))[T.ATG]",-0.0927583733407696,0.0638931866923521,-1.4517725307301448,0.1465648642107559
+recovery_allsource_ge60,right,rms_accel_norm_s2,"C(device, Treatment(reference=""CON""))[T.MST]",0.1602258554507128,0.0764217303529252,2.0966007274471488,0.0360289348409206
+recovery_allsource_ge60,right,rms_accel_norm_s2,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",-0.1386591315372963,0.2493954475413345,-0.5559810048830789,0.5782238402012574
+recovery_allsource_ge60,right,rms_accel_norm_s2,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.1084160332026503,0.1620617794508775,0.6689796543639229,0.5035084565570316
+recovery_allsource_ge60,right,rms_accel_norm_s2,"C(motion_source, Treatment(reference=""gopro_right""))[T.cae_hand]",-0.5687778964815616,0.1984752729321903,-2.865736814862001,0.0041603996795768
+recovery_allsource_ge60,right,rms_accel_norm_s2,device_repetition_c,0.2187614448531044,0.0881614053819371,2.481374291906708,0.0130876864689572
+recovery_allsource_ge60,right,rms_accel_norm_s2,chronological_attempt_sequence_c,-0.0607023951320743,0.0294322503244429,-2.062444918853594,0.0391653965000247
+recovery_allsource_ge60,right,peak_accel_norm_s2,Intercept,3.621004364077791,0.163549188255605,22.140154914243023,1.2978982355594666e-108
+recovery_allsource_ge60,right,peak_accel_norm_s2,"C(device, Treatment(reference=""CON""))[T.ATG]",-0.1446692080950544,0.0797086889387706,-1.8149741266749984,0.069527885708412
+recovery_allsource_ge60,right,peak_accel_norm_s2,"C(device, Treatment(reference=""CON""))[T.MST]",0.2815145550106221,0.1058792295042816,2.658827008173854,0.0078413213705499
+recovery_allsource_ge60,right,peak_accel_norm_s2,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",-0.3554576198142284,0.2219398721681825,-1.6015942351488257,0.1092453664422932
+recovery_allsource_ge60,right,peak_accel_norm_s2,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.1209058552049389,0.1851025595360309,0.6531830543456325,0.5136382734629639
+recovery_allsource_ge60,right,peak_accel_norm_s2,"C(motion_source, Treatment(reference=""gopro_right""))[T.cae_hand]",-0.8966961686986655,0.2836271815249098,-3.1615311476058663,0.0015694203275371
+recovery_allsource_ge60,right,peak_accel_norm_s2,device_repetition_c,0.35649047275871,0.1136855285427052,3.135759470254798,0.0017140972395091
+recovery_allsource_ge60,right,peak_accel_norm_s2,chronological_attempt_sequence_c,-0.1154999469501989,0.0376554529687753,-3.0672834302637044,0.0021601392772924
+recovery_allsource_ge60,right,sparc,Intercept,-32.5964737778208,4.064125372794759,-8.02053844008393,1.0528263249654852e-15
+recovery_allsource_ge60,right,sparc,"C(device, Treatment(reference=""CON""))[T.ATG]",0.5110785546483253,3.379148463474656,0.1512447766567799,0.8797826298670168
+recovery_allsource_ge60,right,sparc,"C(device, Treatment(reference=""CON""))[T.MST]",-1.9612062415301936,4.160198977933242,-0.4714212593995942,0.6373399372748683
+recovery_allsource_ge60,right,sparc,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",8.674180674545791,5.445326527079193,1.5929587750908514,0.1111694395301149
+recovery_allsource_ge60,right,sparc,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",5.819108827557493,3.295526719456323,1.7657598687342748,0.0774361439080681
+recovery_allsource_ge60,right,sparc,"C(motion_source, Treatment(reference=""gopro_right""))[T.cae_hand]",-3.521397585862389,4.196822508575945,-0.8390627858735109,0.4014340777041755
+recovery_allsource_ge60,right,sparc,device_repetition_c,8.224873697591306,8.12559319491023,1.012218246754374,0.3114337136609388
+recovery_allsource_ge60,right,sparc,chronological_attempt_sequence_c,-1.9047929208600065,2.649198606779556,-0.7190072182528924,0.4721364721990999
+recovery_allsource_ge60,right,log_dimensionless_jerk,Intercept,-25.926480779303155,0.6150567316320077,-42.15299084770465,0.0
+recovery_allsource_ge60,right,log_dimensionless_jerk,"C(device, Treatment(reference=""CON""))[T.ATG]",0.3055970712465534,0.4038148036372371,0.7567753051497424,0.4491844900571455
+recovery_allsource_ge60,right,log_dimensionless_jerk,"C(device, Treatment(reference=""CON""))[T.MST]",0.4054649318046558,0.4454580815744349,0.9102201723932664,0.3627064077612244
+recovery_allsource_ge60,right,log_dimensionless_jerk,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",0.9597262765632664,1.3485558246494287,0.7116696684119528,0.4766693544038856
+recovery_allsource_ge60,right,log_dimensionless_jerk,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.5909068075881092,0.6380062002492194,0.9261772179600886,0.3543538900085665
+recovery_allsource_ge60,right,log_dimensionless_jerk,"C(motion_source, Treatment(reference=""gopro_right""))[T.cae_hand]",-1.425159117486503,1.136353047909126,-1.2541517093730477,0.2097868683675133
+recovery_allsource_ge60,right,log_dimensionless_jerk,device_repetition_c,0.7642827116693303,0.6774166314239327,1.128231395888236,0.259222207941635
+recovery_allsource_ge60,right,log_dimensionless_jerk,chronological_attempt_sequence_c,-0.1211614901558312,0.2196479839853696,-0.551616672993919,0.5812110107565186
+recovery_allsource_ge60,right,velocity_peak_count,Intercept,1.3410472080531246,0.0282166096395615,47.52687247630524,0.0
+recovery_allsource_ge60,right,velocity_peak_count,"C(device, Treatment(reference=""CON""))[T.ATG]",-0.0249035097563443,0.0157675098840314,-1.5794193210917409,0.114239908534738
+recovery_allsource_ge60,right,velocity_peak_count,"C(device, Treatment(reference=""CON""))[T.MST]",-0.0870245990377884,0.0267793067964162,-3.2496957333277425,0.0011552854388625
+recovery_allsource_ge60,right,velocity_peak_count,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",-0.0354016341803913,0.0576558770545283,-0.6140160550659911,0.5392047179138015
+recovery_allsource_ge60,right,velocity_peak_count,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.0014677531996821,0.0331739721496749,0.0442441198497391,0.964709813912104
+recovery_allsource_ge60,right,velocity_peak_count,"C(motion_source, Treatment(reference=""gopro_right""))[T.cae_hand]",0.0563252808532096,0.0434305263311238,1.2969053246965805,0.1946637641958378
+recovery_allsource_ge60,right,velocity_peak_count,device_repetition_c,-0.0104718757647561,0.0235967206911881,-0.4437852149797542,0.6571978788202342
+recovery_allsource_ge60,right,velocity_peak_count,chronological_attempt_sequence_c,0.0007835127726034,0.0080457509225378,0.0973821809980046,0.9224228949694536
+recovery_allsource_ge60,right,path_length_norm,Intercept,2.011262695362116,0.0925952055852998,21.721024135632124,1.2985191617106744e-104
+recovery_allsource_ge60,right,path_length_norm,"C(device, Treatment(reference=""CON""))[T.ATG]",0.1827473079970308,0.0680258963034255,2.686437341183968,0.0072218492165798
+recovery_allsource_ge60,right,path_length_norm,"C(device, Treatment(reference=""CON""))[T.MST]",0.8553598146441148,0.062381689770482,13.711712808537238,8.63940105335699e-43
+recovery_allsource_ge60,right,path_length_norm,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",-0.2790504760270312,0.194653070073691,-1.4335786017728325,0.1516925535209371
+recovery_allsource_ge60,right,path_length_norm,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.0229416346793298,0.2130876750633332,0.107662888867276,0.9142631087402716
+recovery_allsource_ge60,right,path_length_norm,"C(motion_source, Treatment(reference=""gopro_right""))[T.cae_hand]",-0.8442599717097663,0.5191500794048115,-1.6262348889124367,0.1038996968751777
+recovery_allsource_ge60,right,path_length_norm,device_repetition_c,-0.0468430859032809,0.0691053635164264,-0.6778502205859365,0.4978666651160718
+recovery_allsource_ge60,right,path_length_norm,chronological_attempt_sequence_c,-0.0057342808587845,0.022112401613263,-0.2593242000156662,0.7953851089865702
+recovery_allsource_ge60,right,path_efficiency,Intercept,0.0299900023961745,0.005677984644043,5.2818040689204695,1.2791795994011192e-07
+recovery_allsource_ge60,right,path_efficiency,"C(device, Treatment(reference=""CON""))[T.ATG]",-0.0020136291794241,0.0045949014584939,-0.4382311998665002,0.6612186937565262
+recovery_allsource_ge60,right,path_efficiency,"C(device, Treatment(reference=""CON""))[T.MST]",-0.0158277459484778,0.0052329416438399,-3.024636433144613,0.0024893216796089
+recovery_allsource_ge60,right,path_efficiency,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",0.0179374614618847,0.0098297726513361,1.824809392661434,0.0680297979699636
+recovery_allsource_ge60,right,path_efficiency,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.0073500176451663,0.0104116565442309,0.7059412317282947,0.4802246849778829
+recovery_allsource_ge60,right,path_efficiency,"C(motion_source, Treatment(reference=""gopro_right""))[T.cae_hand]",0.0254471469254822,0.028167210383795,0.9034315638201184,0.3662968943245603
+recovery_allsource_ge60,right,path_efficiency,device_repetition_c,0.0088157609921164,0.0062322594070525,1.414536914516162,0.1572043167064281
+recovery_allsource_ge60,right,path_efficiency,chronological_attempt_sequence_c,-0.0022639147371511,0.0019939934188237,-1.1353672062200948,0.2562214940314844
+recovery_allsource_ge60,right,stillness_fraction,Intercept,0.3948128180762696,0.0589703242196187,6.6951101812819935,2.1550919281457167e-11
+recovery_allsource_ge60,right,stillness_fraction,"C(device, Treatment(reference=""CON""))[T.ATG]",-0.0770362510276591,0.0244709511033445,-3.1480693456630835,0.0016435269882727
+recovery_allsource_ge60,right,stillness_fraction,"C(device, Treatment(reference=""CON""))[T.MST]",-0.1263997177886969,0.0288824476877478,-4.376350618037016,1.206828324737075e-05
+recovery_allsource_ge60,right,stillness_fraction,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",0.010417263122336,0.0741249513685253,0.1405365255559459,0.8882360956190929
+recovery_allsource_ge60,right,stillness_fraction,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.0758890453921896,0.0683409527280978,1.1104475773716935,0.2668062059980474
+recovery_allsource_ge60,right,stillness_fraction,"C(motion_source, Treatment(reference=""gopro_right""))[T.cae_hand]",0.1002355872420263,0.0841100617669959,1.191719339354449,0.233371312370369
+recovery_allsource_ge60,right,stillness_fraction,device_repetition_c,-0.0045271484472919,0.0266686281114133,-0.1697555805412605,0.8652023613990205
+recovery_allsource_ge60,right,stillness_fraction,chronological_attempt_sequence_c,0.0003859056669815,0.0087442806205205,0.0441323516168865,0.9647989050372926
+recovery_allsource_ge60,right,first_sustained_hand_movement_delay_sec,Intercept,1.5698131445834784,0.2231166170042856,7.035841461119524,1.9806203877693688e-12
+recovery_allsource_ge60,right,first_sustained_hand_movement_delay_sec,"C(device, Treatment(reference=""CON""))[T.ATG]",-0.4181652998855238,0.20348702432101,-2.054997370377037,0.039879258702086
+recovery_allsource_ge60,right,first_sustained_hand_movement_delay_sec,"C(device, Treatment(reference=""CON""))[T.MST]",-0.1076570922987182,0.1753729710365686,-0.6138750553314722,0.5392978950229936
+recovery_allsource_ge60,right,first_sustained_hand_movement_delay_sec,"C(experience_stratum, Treatment(reference=""None""))[T.Higher]",-0.4708208688781241,0.2018409474471931,-2.3326330699141367,0.0196674117329905
+recovery_allsource_ge60,right,first_sustained_hand_movement_delay_sec,"C(experience_stratum, Treatment(reference=""None""))[T.Some]",0.0059644770791911,0.2314999998223477,0.0257644798434913,0.9794451934165356
+recovery_allsource_ge60,right,first_sustained_hand_movement_delay_sec,"C(motion_source, Treatment(reference=""gopro_right""))[T.cae_hand]",0.7658780176500576,0.1669782242936057,4.586693988932221,4.503199772959727e-06
+recovery_allsource_ge60,right,first_sustained_hand_movement_delay_sec,device_repetition_c,0.0764097729154022,0.3070142330587915,0.2488802299298293,0.8034534284423662
+recovery_allsource_ge60,right,first_sustained_hand_movement_delay_sec,chronological_attempt_sequence_c,-0.014837335457771,0.0920211471131034,-0.1612383231816757,0.8719056984507341

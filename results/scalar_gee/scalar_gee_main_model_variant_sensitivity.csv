@@ -1,0 +1,17 @@
+hand,outcome,variant,rows,participants,fit_status,device_omnibus_p,error,cov_type
+left,mean_accel_norm_s2,raw_gaussian_sensitivity,145,20,PASS,0.5350237222354448,,bias_reduced
+left,rms_accel_norm_s2,raw_gaussian_sensitivity,145,20,PASS,0.8576883860718425,,bias_reduced
+left,peak_accel_norm_s2,raw_gaussian_sensitivity,145,20,PASS,0.4541961207188486,,bias_reduced
+left,path_length_norm,raw_gaussian_sensitivity,145,20,PASS,3.635918411506315e-07,,bias_reduced
+left,first_sustained_hand_movement_delay_sec,raw_gaussian_sensitivity,143,20,PASS,0.1798312780753311,,bias_reduced
+left,velocity_peak_count,poisson_rate_sensitivity,145,20,PASS,0.0325686605537924,,bias_reduced
+left,path_efficiency,logit_gaussian_nonboundary_sensitivity,92,15,PASS,0.2509846445733614,,bias_reduced
+left,stillness_fraction,logit_gaussian_nonboundary_sensitivity,142,20,PASS,0.0146328117927088,,bias_reduced
+right,mean_accel_norm_s2,raw_gaussian_sensitivity,251,22,PASS,0.000101330334673,,bias_reduced
+right,rms_accel_norm_s2,raw_gaussian_sensitivity,251,22,PASS,0.0096152717972914,,bias_reduced
+right,peak_accel_norm_s2,raw_gaussian_sensitivity,251,22,PASS,0.0012986628249203,,bias_reduced
+right,path_length_norm,raw_gaussian_sensitivity,251,22,PASS,3.9238121823095356e-18,,bias_reduced
+right,first_sustained_hand_movement_delay_sec,raw_gaussian_sensitivity,251,22,PASS,0.0404528367150927,,bias_reduced
+right,velocity_peak_count,poisson_rate_sensitivity,251,22,PASS,1.912231788312517e-06,,bias_reduced
+right,path_efficiency,logit_gaussian_nonboundary_sensitivity,159,18,PASS,1.371342042627508e-07,,bias_reduced
+right,stillness_fraction,logit_gaussian_nonboundary_sensitivity,251,22,PASS,2.2475663710059728e-05,,bias_reduced

@@ -1,0 +1,63 @@
+figure,check,status,issue,action_required,final_status
+Figure_hand_motion_main_device_effects_primary.png,file_exists,PASS,,,AUTOMATED
+Figure_hand_motion_main_device_effects_primary.png,image_readable,PASS,,,AUTOMATED
+Figure_hand_motion_main_device_effects_primary.png,minimum_resolution,PASS,2670x1768,,AUTOMATED
+Figure_hand_motion_main_device_effects_primary.png,labels_and_titles,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_main_device_effects_primary.png,device_names,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_main_device_effects_primary.png,axes_and_units,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_main_device_effects_primary.png,legend,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_main_device_effects_primary.png,CI_visibility,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_main_device_effects_primary.png,text_or_panel_cropping,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_main_device_effects_primary.png,device_colour_consistency,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_main_device_effects_primary.png,left_right_labelling,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_main_device_effects_primary.png,no_mm_claim_for_normalised_image_space_motion,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_main_device_effects_primary.png,no_biological_handedness_implication,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_main_device_effects_primary.png,no_DEVICE1_DEVICE2_DEVICE3,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_main_device_effects_primary.png,no_obsolete_144_249_or_145_251_counts,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_primary_vs_CAE_sensitivity.png,file_exists,PASS,,,AUTOMATED
+Figure_hand_motion_primary_vs_CAE_sensitivity.png,image_readable,PASS,,,AUTOMATED
+Figure_hand_motion_primary_vs_CAE_sensitivity.png,minimum_resolution,PASS,2670x1918,,AUTOMATED
+Figure_hand_motion_primary_vs_CAE_sensitivity.png,labels_and_titles,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_primary_vs_CAE_sensitivity.png,device_names,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_primary_vs_CAE_sensitivity.png,axes_and_units,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_primary_vs_CAE_sensitivity.png,legend,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_primary_vs_CAE_sensitivity.png,CI_visibility,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_primary_vs_CAE_sensitivity.png,text_or_panel_cropping,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_primary_vs_CAE_sensitivity.png,device_colour_consistency,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_primary_vs_CAE_sensitivity.png,left_right_labelling,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_primary_vs_CAE_sensitivity.png,no_mm_claim_for_normalised_image_space_motion,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_primary_vs_CAE_sensitivity.png,no_biological_handedness_implication,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_primary_vs_CAE_sensitivity.png,no_DEVICE1_DEVICE2_DEVICE3,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_primary_vs_CAE_sensitivity.png,no_obsolete_144_249_or_145_251_counts,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_trajectory_speed_left_GoPro_primary.png,file_exists,PASS,,,AUTOMATED
+Figure_hand_motion_trajectory_speed_left_GoPro_primary.png,image_readable,PASS,,,AUTOMATED
+Figure_hand_motion_trajectory_speed_left_GoPro_primary.png,minimum_resolution,PASS,2370x1468,,AUTOMATED
+Figure_hand_motion_trajectory_speed_left_GoPro_primary.png,labels_and_titles,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_trajectory_speed_left_GoPro_primary.png,device_names,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_trajectory_speed_left_GoPro_primary.png,axes_and_units,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_trajectory_speed_left_GoPro_primary.png,legend,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_trajectory_speed_left_GoPro_primary.png,CI_visibility,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_trajectory_speed_left_GoPro_primary.png,text_or_panel_cropping,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_trajectory_speed_left_GoPro_primary.png,device_colour_consistency,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_trajectory_speed_left_GoPro_primary.png,left_right_labelling,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_trajectory_speed_left_GoPro_primary.png,no_mm_claim_for_normalised_image_space_motion,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_trajectory_speed_left_GoPro_primary.png,no_biological_handedness_implication,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_trajectory_speed_left_GoPro_primary.png,no_DEVICE1_DEVICE2_DEVICE3,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_trajectory_speed_left_GoPro_primary.png,no_obsolete_144_249_or_145_251_counts,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_trajectory_speed_right_GoPro_primary.png,file_exists,PASS,,,AUTOMATED
+Figure_hand_motion_trajectory_speed_right_GoPro_primary.png,image_readable,PASS,,,AUTOMATED
+Figure_hand_motion_trajectory_speed_right_GoPro_primary.png,minimum_resolution,PASS,2370x1468,,AUTOMATED
+Figure_hand_motion_trajectory_speed_right_GoPro_primary.png,labels_and_titles,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_trajectory_speed_right_GoPro_primary.png,device_names,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_trajectory_speed_right_GoPro_primary.png,axes_and_units,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_trajectory_speed_right_GoPro_primary.png,legend,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_trajectory_speed_right_GoPro_primary.png,CI_visibility,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_trajectory_speed_right_GoPro_primary.png,text_or_panel_cropping,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_trajectory_speed_right_GoPro_primary.png,device_colour_consistency,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_trajectory_speed_right_GoPro_primary.png,left_right_labelling,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_trajectory_speed_right_GoPro_primary.png,no_mm_claim_for_normalised_image_space_motion,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_trajectory_speed_right_GoPro_primary.png,no_biological_handedness_implication,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_trajectory_speed_right_GoPro_primary.png,no_DEVICE1_DEVICE2_DEVICE3,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_trajectory_speed_right_GoPro_primary.png,no_obsolete_144_249_or_145_251_counts,PENDING_MANUAL,,Manually inspect the root211 PNG; upload it to ChatGPT for visual QC if desired.,PENDING_MANUAL_VISUAL_REVIEW
+Figure_hand_motion_main_device_effects_primary.png,source_table_values_match_root210,PASS,,,AUTOMATED
+Figure_hand_motion_primary_vs_CAE_sensitivity.png,source_table_values_match_root210,PASS,,,AUTOMATED

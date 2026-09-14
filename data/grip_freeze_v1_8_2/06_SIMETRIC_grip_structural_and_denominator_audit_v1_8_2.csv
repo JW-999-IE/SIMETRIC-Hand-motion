@@ -1,0 +1,11 @@
+check,result,observed,expected
+structural_base_sha256,PASS,fc1b3ff43ab19eb69a486bed04b8cc5fbd2510d8e4713fa8481f2a246ca21f4e,fc1b3ff43ab19eb69a486bed04b8cc5fbd2510d8e4713fa8481f2a246ca21f4e
+workbook_sheet,PASS,insertion,insertion or first workbook sheet
+workbook_participant_column,PASS,Id,participant identifier
+raw_workbook_rows,PASS,438,438
+excluded_P7_P8_P14_rows,PASS,24,24
+included_rows,PASS,414,414
+included_participants,PASS,27,27
+structural_vs_workbook_attempt_id_set,PASS,414,414
+historical_v1_6_byte_artifact,NOT_LOCATED,not found under analysis tree,f05bc9cd31fcafe6ff45effd649fc4c61a6c7227eb52d52194fa42b5583356b5
+historical_included_universe_csv,NOT_LOCATED_BUT_RECONSTRUCTED_FROM_AUTHORITATIVE_WORKBOOK,not found under analysis tree,414 included attempts

@@ -1,0 +1,68 @@
+{
+  "status": "FINAL_NON_GRIP_HAND_MOTION_STATISTICS_COMPLETE",
+  "root208_manifest_sha256": "566778487938512d354b9722ca0d6fe24682ae4f814364f4d8674cdf52ae7d3f",
+  "root209_manifest_sha256": "fa167776d0a1d8e29f704c7dc1629ba45f0dd5217ecb08de0d574a42d6433f93",
+  "primary_population": {
+    "attempt_hands": 251,
+    "participants": 20,
+    "expertise_participants": {
+      "Novice": 11,
+      "Intermediate": 6,
+      "Expert": 3
+    }
+  },
+  "sensitivity_population": {
+    "attempt_hands": 256,
+    "cae_scalar_additions": 5
+  },
+  "model": {
+    "type": "Gaussian random-intercept LMM, direct ML profile likelihood",
+    "random_intercept": "participant",
+    "fixed_effects": [
+      "authoritative_device",
+      "expertise_group",
+      "hand",
+      "round"
+    ],
+    "secondary_order_model_adds": "attempt_sequence",
+    "device_reference": "MST",
+    "expertise_reference": "Novice",
+    "hand_reference": "left",
+    "outcome_scale": "outcome-specific transform then standardised using GoPro-primary transformed mean/SD"
+  },
+  "main_outcomes": [
+    "path_length_norm",
+    "path_efficiency",
+    "mean_speed_norm_s",
+    "log_dimensionless_jerk",
+    "stillness_fraction_observed_tracking"
+  ],
+  "secondary_outcomes": [
+    "displacement_norm",
+    "peak_speed_norm_s",
+    "velocity_peak_count",
+    "sparc",
+    "stillness_episode_count",
+    "longest_stillness_sec"
+  ],
+  "descriptive_only_acceleration": [
+    "mean_accel_norm_s2",
+    "rms_accel_norm_s2",
+    "peak_accel_norm_s2"
+  ],
+  "excluded_from_main_inference": {
+    "path_efficiency_raw": "QC-controlled path_efficiency used instead",
+    "tremor_or_hf_fields": "exploratory high-frequency motion; not physiological tremor",
+    "grip_fields": "handled in separate grip branch"
+  },
+  "multiplicity": "Benjamini-Hochberg FDR within dataset/outcome-tier/test family",
+  "trajectory": {
+    "inference": "NO_POINTWISE_HYPOTHESIS_TESTS",
+    "descriptive_profile": "participant-aggregated speed by device, hand, 100-point normalised time",
+    "x_y_inferential_pooling": false,
+    "reason": "non-fused uncalibrated 2D camera views"
+  },
+  "expertise_interpretation": "secondary/exploratory because only 3 Expert participants are in the GoPro-primary set",
+  "grip_analysis_included": false,
+  "next_stage": "review root210 result tables; generate manuscript-ready hand-motion figures/tables and integrate non-grip findings with the paper while grip branch continues separately"
+}

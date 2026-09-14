@@ -1,0 +1,3 @@
+hand,rows,participants,participant_device_groups,participants_with_all_3_devices,participants_with_at_least_2_devices,participants_with_only_1_device,MST_rows,ATG_rows,CON_rows,Higher_rows,Some_rows,None_rows
+left,145,20,49,12,17,3,46,48,51,16,39,0
+right,251,22,59,18,19,3,84,83,84,45,84,0
